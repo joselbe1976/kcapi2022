@@ -17,6 +17,7 @@ struct HerosController : RouteCollection {
         tokenAppjwt.post("create", use: createHero)
         tokenAppjwt.post("location", use: addLocationHero) //añade una localizacion de un hero
         tokenAppjwt.get("locations", use: getLocationsHero) //Lista locations
+        tokenAppjwt.delete("location", use: removeLocation)//remove a Location
     }
     
     
@@ -76,6 +77,24 @@ struct HerosController : RouteCollection {
             }
             .get()
     }
+    
+    //remove a location with a ID
+    func removeLocation(_ req:Request) async throws -> HTTPStatus {
+    
+        let _ = try req.jwt.verify(as: PayloadApp.self)
+        let requestData  = try req.content.decode(HerosLocationsListRequest.self)
+        let idLocation = requestData.id
+      
+        return try await HerosLocations
+            .find(idLocation, on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMap{ hero in
+                return hero.delete(on: req.db).transform(to: .ok)
+            }
+            .get()
+
+    }
+    
     
     func allHeros(_ req:Request) async throws -> [HerosResponse] {
         let payload = try req.jwt.verify(as: PayloadApp.self)
