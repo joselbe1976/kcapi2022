@@ -16,7 +16,7 @@ struct HerosController : RouteCollection {
         tokenAppjwt.post("all", use: allHeros)
         tokenAppjwt.post("create", use: createHero)
         tokenAppjwt.post("location", use: addLocationHero) //añade una localizacion de un hero
-        tokenAppjwt.get("locations", use: getLocationsHero) //Lista locations
+        tokenAppjwt.post("locations", use: getLocationsHero) //Lista locations
         tokenAppjwt.delete("location", use: removeLocation)//remove a Location
     }
     
