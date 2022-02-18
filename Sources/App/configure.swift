@@ -19,7 +19,7 @@ public func configure(_ app: Application) throws {
         ), as: .psql)
     } else {
         
-        app.databases.use(.postgres(hostname: "ec2-54-220-53-223.eu-west-1.compute.amazonaws.com", port: 5432, username: "zezyjrxzpbqqsu", password: "b2369a5fc7706264ac7ab44093576b883362506fabb1d9984bfe24b443afe7ec", database: "d5a7ughenju6tn", tlsConfiguration: .forClient(certificateVerification: .none)), as: .psql)
+        app.databases.use(.postgres(hostname: "ec2-34-233-214-228.compute-1.amazonaws.com", port: 5432, username: "xpbmiqzjbtqomr", password: "a02e20293d4f02afe5a6cb4073577e0b779de84c2eafa5e73f7e0974147e90af", database: "d9s1n4l072ofsm", tlsConfiguration: .forClient(certificateVerification: .none)), as: .psql)
     }
     
     
@@ -31,12 +31,13 @@ public func configure(_ app: Application) throws {
     app.migrations.add(Heros_v1())
     app.migrations.add(HerosLocations_v1())
     app.migrations.add(DevelopersHeros_v1())
+    app.migrations.add(HerosTransformations_v1())
     
     
     // Aqui datos por defecto
     app.migrations.add(Create_Data_v1()) //creamos los bootcamps
     app.migrations.add(Create_Data_Heros_v1()) // cramos los heroes
-    
+    app.migrations.add(Create_Data_Transformations_v1()) //creamos las transformaciones de los Heroes
     
     //encriptacion del sistema
     app.passwords.use(.bcrypt)

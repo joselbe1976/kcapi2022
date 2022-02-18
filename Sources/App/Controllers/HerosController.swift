@@ -18,6 +18,10 @@ struct HerosController : RouteCollection {
         tokenAppjwt.post("location", use: addLocationHero) //añade una localizacion de un hero
         tokenAppjwt.post("locations", use: getLocationsHero) //Lista locations
         tokenAppjwt.delete("location", use: removeLocation)//remove a Location
+        tokenAppjwt.post("tranformations", use: getTransformationsHero) //Lista Transformaciones de un hero
+        tokenAppjwt.post("tranformation", use: addTransformationHero) //Add Transformation
+        
+        
     }
     
     
@@ -34,7 +38,52 @@ struct HerosController : RouteCollection {
             .get()
     }
     
-    
+    //Transformations of a Hero
+    func getTransformationsHero(_ req:Request) async throws -> [HeroTransformations] {
+        let _ = try req.jwt.verify(as: PayloadApp.self)
+        let requestData  = try req.content.decode(HerosTransformationListRequest.self)
+        let idHero = requestData.id
+        return try await HeroTransformations
+            .query(on: req.db)
+            .group(.and){ group in
+                group
+                    .filter(\.$hero.$id == idHero)
+            }
+            .all()
+            .get() //tranforma a async-throws ->
+  
+            
+    }
+    //add tranformation to Hero
+    func addTransformationHero(_ req:Request) async throws -> HTTPStatus {
+        
+        let _ = try req.jwt.verify(as: PayloadApp.self)
+        let requestData  = try req.content.decode(HerosTransformationRequest.self)
+        let idHero = requestData.id
+        let name = requestData.name
+        let description = requestData.description
+        let photo = requestData.photo
+        
+        return try await Heros
+            .find(idHero, on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMap{ hero in
+                do {
+                    
+                    let HeroModel = try HeroTransformations(id: UUID(), hero: hero, name: name, description: description, photo: photo)
+                    
+                    return HeroModel
+                        .create(on: req.db)
+                        .transform(to: .created)
+                    
+                } catch {
+                    return req.eventLoop.makeFailedFuture(Abort(.badRequest))
+                }
+            }
+            .get()
+    }
+     
+    //Locations of a Hero
     func getLocationsHero(_ req:Request) async throws -> [HerosLocations] {
         let _ = try req.jwt.verify(as: PayloadApp.self)
         let requestData  = try req.content.decode(HerosLocationsListRequest.self)
