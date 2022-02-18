@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1645219344, 636507987]
+build_end_time: [1645219348, 151458024]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/routing-kit/Sources/RoutingKit/AnyRouter.swift": [1645219336, 407662868]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1645219336, 407735347]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1645219336, 407806396]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1645219336, 407871723]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1645219336, 407962322]

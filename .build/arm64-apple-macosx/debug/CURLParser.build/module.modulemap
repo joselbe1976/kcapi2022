@@ -1,0 +1,4 @@
+module CURLParser {
+    umbrella "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/vapor/Sources/CURLParser/include"
+    export *
+}

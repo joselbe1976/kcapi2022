@@ -1,0 +1,4293 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "FluentSQLiteConfiguration",
+      "printedName": "FluentSQLiteConfiguration",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "configuration",
+          "printedName": "configuration",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConfiguration",
+              "printedName": "SQLiteKit.SQLiteConfiguration",
+              "usr": "s:9SQLiteKit0A13ConfigurationV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV13configuration0B3Kit0bD0Vvp",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV13configuration0B3Kit0bD0Vvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConfiguration",
+                  "printedName": "SQLiteKit.SQLiteConfiguration",
+                  "usr": "s:9SQLiteKit0A13ConfigurationV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV13configuration0B3Kit0bD0Vvg",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV13configuration0B3Kit0bD0Vvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "maxConnectionsPerEventLoop",
+          "printedName": "maxConnectionsPerEventLoop",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV26maxConnectionsPerEventLoopSivp",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV26maxConnectionsPerEventLoopSivp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV26maxConnectionsPerEventLoopSivg",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV26maxConnectionsPerEventLoopSivg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "middleware",
+          "printedName": "middleware",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[FluentKit.AnyModelMiddleware]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyModelMiddleware",
+                  "printedName": "FluentKit.AnyModelMiddleware",
+                  "usr": "s:9FluentKit18AnyModelMiddlewareP"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvp",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FluentKit.AnyModelMiddleware]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AnyModelMiddleware",
+                      "printedName": "FluentKit.AnyModelMiddleware",
+                      "usr": "s:9FluentKit18AnyModelMiddlewareP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvg",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[FluentKit.AnyModelMiddleware]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "AnyModelMiddleware",
+                      "printedName": "FluentKit.AnyModelMiddleware",
+                      "usr": "s:9FluentKit18AnyModelMiddlewareP"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvs",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvs",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvM",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV10middlewareSay0A3Kit18AnyModelMiddleware_pGvM",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "connectionPoolTimeout",
+          "printedName": "connectionPoolTimeout",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TimeAmount",
+              "printedName": "NIOCore.TimeAmount",
+              "usr": "s:7NIOCore10TimeAmountV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV21connectionPoolTimeout7NIOCore10TimeAmountVvp",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV21connectionPoolTimeout7NIOCore10TimeAmountVvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "TimeAmount",
+                  "printedName": "NIOCore.TimeAmount",
+                  "usr": "s:7NIOCore10TimeAmountV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV21connectionPoolTimeout7NIOCore10TimeAmountVvg",
+              "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV21connectionPoolTimeout7NIOCore10TimeAmountVvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "makeDriver",
+          "printedName": "makeDriver(for:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseDriver",
+              "printedName": "FluentKit.DatabaseDriver",
+              "usr": "s:9FluentKit14DatabaseDriverP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Databases",
+              "printedName": "FluentKit.Databases",
+              "usr": "s:9FluentKit9DatabasesC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV04makeC03for0A3Kit08DatabaseC0_pAF9DatabasesC_tF",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV04makeC03for0A3Kit08DatabaseC0_pAF9DatabasesC_tF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(configuration:maxConnectionsPerEventLoop:middleware:connectionPoolTimeout:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "FluentSQLiteConfiguration",
+              "printedName": "FluentSQLiteDriver.FluentSQLiteConfiguration",
+              "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConfiguration",
+              "printedName": "SQLiteKit.SQLiteConfiguration",
+              "usr": "s:9SQLiteKit0A13ConfigurationV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[FluentKit.AnyModelMiddleware]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AnyModelMiddleware",
+                  "printedName": "FluentKit.AnyModelMiddleware",
+                  "usr": "s:9FluentKit18AnyModelMiddlewareP"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "TimeAmount",
+              "printedName": "NIOCore.TimeAmount",
+              "usr": "s:7NIOCore10TimeAmountV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV13configuration26maxConnectionsPerEventLoop10middleware21connectionPoolTimeoutAC0B3Kit0bD0V_SiSay0aO018AnyModelMiddleware_pG7NIOCore10TimeAmountVtcfc",
+          "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV13configuration26maxConnectionsPerEventLoop10middleware21connectionPoolTimeoutAC0B3Kit0bD0V_SiSay0aO018AnyModelMiddleware_pG7NIOCore10TimeAmountVtcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18FluentSQLiteDriver0aB13ConfigurationV",
+      "mangledName": "$s18FluentSQLiteDriver0aB13ConfigurationV",
+      "moduleName": "FluentSQLiteDriver",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "DatabaseConfiguration",
+          "printedName": "DatabaseConfiguration",
+          "usr": "s:9FluentKit21DatabaseConfigurationP",
+          "mangledName": "$s9FluentKit21DatabaseConfigurationP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "_FluentSQLiteDatabase",
+      "printedName": "_FluentSQLiteDatabase",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "database",
+          "printedName": "database",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteDatabase",
+              "printedName": "SQLiteNIO.SQLiteDatabase",
+              "usr": "s:9SQLiteNIO0A8DatabaseP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV8database0B3NIO0bD0_pvp",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV8database0B3NIO0bD0_pvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteDatabase",
+                  "printedName": "SQLiteNIO.SQLiteDatabase",
+                  "usr": "s:9SQLiteNIO0A8DatabaseP"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV8database0B3NIO0bD0_pvg",
+              "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV8database0B3NIO0bD0_pvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "context",
+          "printedName": "context",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseContext",
+              "printedName": "FluentKit.DatabaseContext",
+              "usr": "s:9FluentKit15DatabaseContextV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7context0A3Kit0D7ContextVvp",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7context0A3Kit0D7ContextVvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DatabaseContext",
+                  "printedName": "FluentKit.DatabaseContext",
+                  "usr": "s:9FluentKit15DatabaseContextV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7context0A3Kit0D7ContextVvg",
+              "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7context0A3Kit0D7ContextVvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "inTransaction",
+          "printedName": "inTransaction",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV13inTransactionSbvp",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV13inTransactionSbvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV13inTransactionSbvg",
+              "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV13inTransactionSbvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(database:context:inTransaction:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "_FluentSQLiteDatabase",
+              "printedName": "FluentSQLiteDriver._FluentSQLiteDatabase",
+              "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteDatabase",
+              "printedName": "SQLiteNIO.SQLiteDatabase",
+              "usr": "s:9SQLiteNIO0A8DatabaseP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseContext",
+              "printedName": "FluentKit.DatabaseContext",
+              "usr": "s:9FluentKit15DatabaseContextV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV8database7context13inTransactionAC0B3NIO0bD0_p_0A3Kit0D7ContextVSbtcfc",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV8database7context13inTransactionAC0B3NIO0bD0_p_0A3Kit0D7ContextVSbtcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(query:onOutput:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseQuery",
+              "printedName": "FluentKit.DatabaseQuery",
+              "usr": "s:9FluentKit13DatabaseQueryV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FluentKit.DatabaseOutput) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DatabaseOutput",
+                  "printedName": "FluentKit.DatabaseOutput",
+                  "usr": "s:9FluentKit14DatabaseOutputP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7execute5query8onOutput7NIOCore15EventLoopFutureCyytG0A3Kit0D5QueryV_yAK0dH0_pctF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7execute5query8onOutput7NIOCore15EventLoopFutureCyytG0A3Kit0D5QueryV_yAK0dH0_pctF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "transaction",
+          "printedName": "transaction(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FluentKit.Database) -> NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopFuture",
+                  "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:7NIOCore15EventLoopFutureC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Database",
+                  "printedName": "FluentKit.Database",
+                  "usr": "s:9FluentKit8DatabaseP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV11transactiony7NIOCore15EventLoopFutureCyxGAH0A3Kit0D0_pclF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV11transactiony7NIOCore15EventLoopFutureCyxGAH0A3Kit0D0_pclF",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<T>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(schema:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseSchema",
+              "printedName": "FluentKit.DatabaseSchema",
+              "usr": "s:9FluentKit14DatabaseSchemaV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7execute6schema7NIOCore15EventLoopFutureCyytG0A3Kit0D6SchemaV_tF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7execute6schema7NIOCore15EventLoopFutureCyytG0A3Kit0D6SchemaV_tF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(enum:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseEnum",
+              "printedName": "FluentKit.DatabaseEnum",
+              "usr": "s:9FluentKit12DatabaseEnumV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7execute4enum7NIOCore15EventLoopFutureCyytG0A3Kit0D4EnumV_tF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7execute4enum7NIOCore15EventLoopFutureCyytG0A3Kit0D4EnumV_tF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "withConnection",
+          "printedName": "withConnection(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(FluentKit.Database) -> NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopFuture",
+                  "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:7NIOCore15EventLoopFutureC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Database",
+                  "printedName": "FluentKit.Database",
+                  "usr": "s:9FluentKit8DatabaseP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV14withConnectiony7NIOCore15EventLoopFutureCyxGAH0A3Kit0D0_pclF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV14withConnectiony7NIOCore15EventLoopFutureCyxGAH0A3Kit0D0_pclF",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<T>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "withConnection",
+          "printedName": "withConnection(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SQLiteNIO.SQLiteConnection) -> NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopFuture",
+                  "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:7NIOCore15EventLoopFutureC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnection",
+                  "printedName": "SQLiteNIO.SQLiteConnection",
+                  "usr": "s:9SQLiteNIO0A10ConnectionC"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV14withConnectiony7NIOCore15EventLoopFutureCyxGAH0B3NIO0bF0CclF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV14withConnectiony7NIOCore15EventLoopFutureCyxGAH0B3NIO0bF0CclF",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<T>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "query",
+          "printedName": "query(_:_:logger:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[SQLiteNIO.SQLiteData]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteData",
+                  "printedName": "SQLiteNIO.SQLiteData",
+                  "usr": "s:9SQLiteNIO0A4DataO"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logging.Logger",
+              "usr": "s:7Logging6LoggerV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SQLiteNIO.SQLiteRow) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteRow",
+                  "printedName": "SQLiteNIO.SQLiteRow",
+                  "usr": "s:9SQLiteNIO0A3RowV"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV5query__6logger_7NIOCore15EventLoopFutureCyytGSS_Say0B3NIO0B4DataOG7Logging6LoggerVyAJ0B3RowVctF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV5query__6logger_7NIOCore15EventLoopFutureCyytGSS_Say0B3NIO0B4DataOG7Logging6LoggerVyAJ0B3RowVctF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "dialect",
+          "printedName": "dialect",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLDialect",
+              "printedName": "SQLKit.SQLDialect",
+              "usr": "s:6SQLKit10SQLDialectP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7dialect6SQLKit10SQLDialect_pvp",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7dialect6SQLKit10SQLDialect_pvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLDialect",
+                  "printedName": "SQLKit.SQLDialect",
+                  "usr": "s:6SQLKit10SQLDialectP"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7dialect6SQLKit10SQLDialect_pvg",
+              "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7dialect6SQLKit10SQLDialect_pvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "execute",
+          "printedName": "execute(sql:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SQLExpression",
+              "printedName": "SQLKit.SQLExpression",
+              "usr": "s:6SQLKit13SQLExpressionP"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SQLKit.SQLRow) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLRow",
+                  "printedName": "SQLKit.SQLRow",
+                  "usr": "s:6SQLKit6SQLRowP"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV7execute3sql_7NIOCore15EventLoopFutureCyytG6SQLKit13SQLExpression_p_yAJ6SQLRow_pctF",
+          "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV7execute3sql_7NIOCore15EventLoopFutureCyytG6SQLKit13SQLExpression_p_yAJ6SQLRow_pctF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18FluentSQLiteDriver01_aB8DatabaseV",
+      "mangledName": "$s18FluentSQLiteDriver01_aB8DatabaseV",
+      "moduleName": "FluentSQLiteDriver",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Database",
+          "printedName": "Database",
+          "usr": "s:9FluentKit8DatabaseP",
+          "mangledName": "$s9FluentKit8DatabaseP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDatabase",
+          "printedName": "SQLiteDatabase",
+          "usr": "s:9SQLiteNIO0A8DatabaseP",
+          "mangledName": "$s9SQLiteNIO0A8DatabaseP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLDatabase",
+          "printedName": "SQLDatabase",
+          "usr": "s:6SQLKit11SQLDatabaseP",
+          "mangledName": "$s6SQLKit11SQLDatabaseP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AutoincrementIDInitializable",
+      "printedName": "AutoincrementIDInitializable",
+      "children": [
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(autoincrementID:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP15autoincrementIDxSi_tcfc",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP15autoincrementIDxSi_tcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0 where τ_0_0 : FluentSQLiteDriver.AutoincrementIDInitializable>",
+          "sugared_genericSig": "<Self where Self : FluentSQLiteDriver.AutoincrementIDInitializable>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(autoincrementID:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializablePAAs17FixedWidthIntegerRzrlE15autoincrementIDxSi_tcfc",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializablePAAs17FixedWidthIntegerRzrlE15autoincrementIDxSi_tcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0 where τ_0_0 : FluentSQLiteDriver.AutoincrementIDInitializable, τ_0_0 : Swift.FixedWidthInteger>",
+          "sugared_genericSig": "<Self where Self : FluentSQLiteDriver.AutoincrementIDInitializable, Self : Swift.FixedWidthInteger>",
+          "init_kind": "Convenience"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP",
+      "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "_FluentSQLiteDriver",
+      "printedName": "_FluentSQLiteDriver",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "pool",
+          "printedName": "pool",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopGroupConnectionPool",
+              "printedName": "AsyncKit.EventLoopGroupConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnectionSource",
+                  "printedName": "SQLiteKit.SQLiteConnectionSource",
+                  "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                }
+              ],
+              "usr": "s:8AsyncKit28EventLoopGroupConnectionPoolC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_abC0V4pool8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVGvp",
+          "mangledName": "$s18FluentSQLiteDriver01_abC0V4pool8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVGvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopGroupConnectionPool",
+                  "printedName": "AsyncKit.EventLoopGroupConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SQLiteConnectionSource",
+                      "printedName": "SQLiteKit.SQLiteConnectionSource",
+                      "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                    }
+                  ],
+                  "usr": "s:8AsyncKit28EventLoopGroupConnectionPoolC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_abC0V4pool8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVGvg",
+              "mangledName": "$s18FluentSQLiteDriver01_abC0V4pool8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVGvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "eventLoopGroup",
+          "printedName": "eventLoopGroup",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopGroup",
+              "printedName": "NIOCore.EventLoopGroup",
+              "usr": "s:7NIOCore14EventLoopGroupP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver01_abC0V14eventLoopGroup7NIOCore05EventeF0_pvp",
+          "mangledName": "$s18FluentSQLiteDriver01_abC0V14eventLoopGroup7NIOCore05EventeF0_pvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopGroup",
+                  "printedName": "NIOCore.EventLoopGroup",
+                  "usr": "s:7NIOCore14EventLoopGroupP"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver01_abC0V14eventLoopGroup7NIOCore05EventeF0_pvg",
+              "mangledName": "$s18FluentSQLiteDriver01_abC0V14eventLoopGroup7NIOCore05EventeF0_pvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "makeDatabase",
+          "printedName": "makeDatabase(with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Database",
+              "printedName": "FluentKit.Database",
+              "usr": "s:9FluentKit8DatabaseP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseContext",
+              "printedName": "FluentKit.DatabaseContext",
+              "usr": "s:9FluentKit15DatabaseContextV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_abC0V12makeDatabase4with0A3Kit0E0_pAF0E7ContextV_tF",
+          "mangledName": "$s18FluentSQLiteDriver01_abC0V12makeDatabase4with0A3Kit0E0_pAF0E7ContextV_tF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "shutdown",
+          "printedName": "shutdown()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver01_abC0V8shutdownyyF",
+          "mangledName": "$s18FluentSQLiteDriver01_abC0V8shutdownyyF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(pool:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "_FluentSQLiteDriver",
+              "printedName": "FluentSQLiteDriver._FluentSQLiteDriver",
+              "usr": "s:18FluentSQLiteDriver01_abC0V"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopGroupConnectionPool",
+              "printedName": "AsyncKit.EventLoopGroupConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnectionSource",
+                  "printedName": "SQLiteKit.SQLiteConnectionSource",
+                  "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                }
+              ],
+              "usr": "s:8AsyncKit28EventLoopGroupConnectionPoolC"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver01_abC0V4poolAC8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVG_tcfc",
+          "mangledName": "$s18FluentSQLiteDriver01_abC0V4poolAC8AsyncKit28EventLoopGroupConnectionPoolCy0bF00bJ6SourceVG_tcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18FluentSQLiteDriver01_abC0V",
+      "mangledName": "$s18FluentSQLiteDriver01_abC0V",
+      "moduleName": "FluentSQLiteDriver",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "DatabaseDriver",
+          "printedName": "DatabaseDriver",
+          "usr": "s:9FluentKit14DatabaseDriverP",
+          "mangledName": "$s9FluentKit14DatabaseDriverP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "_ConnectionPoolSQLiteDatabase",
+      "printedName": "_ConnectionPoolSQLiteDatabase",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "pool",
+          "printedName": "pool",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopConnectionPool",
+              "printedName": "AsyncKit.EventLoopConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnectionSource",
+                  "printedName": "SQLiteKit.SQLiteConnectionSource",
+                  "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                }
+              ],
+              "usr": "s:8AsyncKit23EventLoopConnectionPoolC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool8AsyncKit09EventLoopdE0Cy0bI00bD6SourceVGvp",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool8AsyncKit09EventLoopdE0Cy0bI00bD6SourceVGvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopConnectionPool",
+                  "printedName": "AsyncKit.EventLoopConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "SQLiteConnectionSource",
+                      "printedName": "SQLiteKit.SQLiteConnectionSource",
+                      "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                    }
+                  ],
+                  "usr": "s:8AsyncKit23EventLoopConnectionPoolC"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool8AsyncKit09EventLoopdE0Cy0bI00bD6SourceVGvg",
+              "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool8AsyncKit09EventLoopdE0Cy0bI00bD6SourceVGvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "logger",
+          "printedName": "logger",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logging.Logger",
+              "usr": "s:7Logging6LoggerV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV6logger7Logging6LoggerVvp",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV6logger7Logging6LoggerVvp",
+          "moduleName": "FluentSQLiteDriver",
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Logger",
+                  "printedName": "Logging.Logger",
+                  "usr": "s:7Logging6LoggerV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV6logger7Logging6LoggerVvg",
+              "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV6logger7Logging6LoggerVvg",
+              "moduleName": "FluentSQLiteDriver",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(pool:logger:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "_ConnectionPoolSQLiteDatabase",
+              "printedName": "FluentSQLiteDriver._ConnectionPoolSQLiteDatabase",
+              "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopConnectionPool",
+              "printedName": "AsyncKit.EventLoopConnectionPool<SQLiteKit.SQLiteConnectionSource>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnectionSource",
+                  "printedName": "SQLiteKit.SQLiteConnectionSource",
+                  "usr": "s:9SQLiteKit0A16ConnectionSourceV"
+                }
+              ],
+              "usr": "s:8AsyncKit23EventLoopConnectionPoolC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logging.Logger",
+              "usr": "s:7Logging6LoggerV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool6loggerAC8AsyncKit09EventLoopdE0Cy0bJ00bD6SourceVG_7Logging6LoggerVtcfc",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV4pool6loggerAC8AsyncKit09EventLoopdE0Cy0bJ00bD6SourceVG_7Logging6LoggerVtcfc",
+          "moduleName": "FluentSQLiteDriver",
+          "implicit": true,
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "eventLoop",
+          "printedName": "eventLoop",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoop",
+              "printedName": "NIOCore.EventLoop",
+              "usr": "s:7NIOCore9EventLoopP"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV9eventLoop7NIOCore05EventH0_pvp",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV9eventLoop7NIOCore05EventH0_pvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoop",
+                  "printedName": "NIOCore.EventLoop",
+                  "usr": "s:7NIOCore9EventLoopP"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV9eventLoop7NIOCore05EventH0_pvg",
+              "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV9eventLoop7NIOCore05EventH0_pvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Function",
+          "name": "lastAutoincrementID",
+          "printedName": "lastAutoincrementID()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<Swift.Int>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV19lastAutoincrementID7NIOCore15EventLoopFutureCySiGyF",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV19lastAutoincrementID7NIOCore15EventLoopFutureCySiGyF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "withConnection",
+          "printedName": "withConnection(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SQLiteNIO.SQLiteConnection) -> NIOCore.EventLoopFuture<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopFuture",
+                  "printedName": "NIOCore.EventLoopFuture<τ_0_0>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:7NIOCore15EventLoopFutureC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConnection",
+                  "printedName": "SQLiteNIO.SQLiteConnection",
+                  "usr": "s:9SQLiteNIO0A10ConnectionC"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV04withD0y7NIOCore15EventLoopFutureCyxGAH0B3NIO0bD0CclF",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV04withD0y7NIOCore15EventLoopFutureCyxGAH0B3NIO0bD0CclF",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<T>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "query",
+          "printedName": "query(_:_:logger:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "EventLoopFuture",
+              "printedName": "NIOCore.EventLoopFuture<()>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "usr": "s:7NIOCore15EventLoopFutureC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[SQLiteNIO.SQLiteData]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteData",
+                  "printedName": "SQLiteNIO.SQLiteData",
+                  "usr": "s:9SQLiteNIO0A4DataO"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Logger",
+              "printedName": "Logging.Logger",
+              "usr": "s:7Logging6LoggerV"
+            },
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(SQLiteNIO.SQLiteRow) -> ()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteRow",
+                  "printedName": "SQLiteNIO.SQLiteRow",
+                  "usr": "s:9SQLiteNIO0A3RowV"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV5query__6logger_7NIOCore15EventLoopFutureCyytGSS_Say0B3NIO0B4DataOG7Logging6LoggerVyAJ0B3RowVctF",
+          "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV5query__6logger_7NIOCore15EventLoopFutureCyytGSS_Say0B3NIO0B4DataOG7Logging6LoggerVyAJ0B3RowVctF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV",
+      "mangledName": "$s18FluentSQLiteDriver015_ConnectionPoolB8DatabaseV",
+      "moduleName": "FluentSQLiteDriver",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDatabase",
+          "printedName": "SQLiteDatabase",
+          "usr": "s:9SQLiteNIO0A8DatabaseP",
+          "mangledName": "$s9SQLiteNIO0A8DatabaseP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SQLiteConverterDelegate",
+      "printedName": "SQLiteConverterDelegate",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "customDataType",
+          "printedName": "customDataType(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "SQLKit.SQLExpression?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLExpression",
+                  "printedName": "SQLKit.SQLExpression",
+                  "usr": "s:6SQLKit13SQLExpressionP"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DataType",
+              "printedName": "FluentKit.DatabaseSchema.DataType",
+              "usr": "s:9FluentKit14DatabaseSchemaV8DataTypeO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver0B17ConverterDelegateV14customDataTypey6SQLKit13SQLExpression_pSg0A3Kit14DatabaseSchemaV0gH0OF",
+          "mangledName": "$s18FluentSQLiteDriver0B17ConverterDelegateV14customDataTypey6SQLKit13SQLExpression_pSg0A3Kit14DatabaseSchemaV0gH0OF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "nestedFieldExpression",
+          "printedName": "nestedFieldExpression(_:_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLExpression",
+              "printedName": "SQLKit.SQLExpression",
+              "usr": "s:6SQLKit13SQLExpressionP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18FluentSQLiteDriver0B17ConverterDelegateV21nestedFieldExpressiony6SQLKit13SQLExpression_pSS_SaySSGtF",
+          "mangledName": "$s18FluentSQLiteDriver0B17ConverterDelegateV21nestedFieldExpressiony6SQLKit13SQLExpression_pSS_SaySSGtF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConverterDelegate",
+              "printedName": "FluentSQLiteDriver.SQLiteConverterDelegate",
+              "usr": "s:18FluentSQLiteDriver0B17ConverterDelegateV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18FluentSQLiteDriver0B17ConverterDelegateVACycfc",
+          "mangledName": "$s18FluentSQLiteDriver0B17ConverterDelegateVACycfc",
+          "moduleName": "FluentSQLiteDriver",
+          "implicit": true,
+          "init_kind": "Designated"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:18FluentSQLiteDriver0B17ConverterDelegateV",
+      "mangledName": "$s18FluentSQLiteDriver0B17ConverterDelegateV",
+      "moduleName": "FluentSQLiteDriver",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "SQLConverterDelegate",
+          "printedName": "SQLConverterDelegate",
+          "usr": "s:9FluentSQL20SQLConverterDelegateP",
+          "mangledName": "$s9FluentSQL20SQLConverterDelegateP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "FluentKit",
+      "printedName": "FluentKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "FluentSQL",
+      "printedName": "FluentSQL",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "NIO",
+      "printedName": "NIO",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "SQLiteKit",
+      "printedName": "SQLiteKit",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "FluentSQLiteDriver"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DatabaseID",
+      "printedName": "DatabaseID",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "sqlite",
+          "printedName": "sqlite",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseID",
+              "printedName": "FluentKit.DatabaseID",
+              "usr": "s:9FluentKit10DatabaseIDV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9FluentKit10DatabaseIDV0A12SQLiteDriverE6sqliteACvpZ",
+          "mangledName": "$s9FluentKit10DatabaseIDV0A12SQLiteDriverE6sqliteACvpZ",
+          "moduleName": "FluentSQLiteDriver",
+          "static": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DatabaseID",
+                  "printedName": "FluentKit.DatabaseID",
+                  "usr": "s:9FluentKit10DatabaseIDV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9FluentKit10DatabaseIDV0A12SQLiteDriverE6sqliteACvgZ",
+              "mangledName": "$s9FluentKit10DatabaseIDV0A12SQLiteDriverE6sqliteACvgZ",
+              "moduleName": "FluentSQLiteDriver",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9FluentKit10DatabaseIDV",
+      "mangledName": "$s9FluentKit10DatabaseIDV",
+      "moduleName": "FluentKit",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "DatabaseConfigurationFactory",
+      "printedName": "DatabaseConfigurationFactory",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "sqlite",
+          "printedName": "sqlite(_:maxConnectionsPerEventLoop:connectionPoolTimeout:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseConfigurationFactory",
+              "printedName": "FluentKit.DatabaseConfigurationFactory",
+              "usr": "s:9FluentKit28DatabaseConfigurationFactoryV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConfiguration",
+              "printedName": "SQLiteKit.SQLiteConfiguration",
+              "hasDefaultArg": true,
+              "usr": "s:9SQLiteKit0A13ConfigurationV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "hasDefaultArg": true,
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "TimeAmount",
+              "printedName": "NIOCore.TimeAmount",
+              "hasDefaultArg": true,
+              "usr": "s:7NIOCore10TimeAmountV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9FluentKit28DatabaseConfigurationFactoryV0A12SQLiteDriverE6sqlite_26maxConnectionsPerEventLoop21connectionPoolTimeoutAC0fB00fD0V_Si7NIOCore10TimeAmountVtFZ",
+          "mangledName": "$s9FluentKit28DatabaseConfigurationFactoryV0A12SQLiteDriverE6sqlite_26maxConnectionsPerEventLoop21connectionPoolTimeoutAC0fB00fD0V_Si7NIOCore10TimeAmountVtFZ",
+          "moduleName": "FluentSQLiteDriver",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9FluentKit28DatabaseConfigurationFactoryV",
+      "mangledName": "$s9FluentKit28DatabaseConfigurationFactoryV",
+      "moduleName": "FluentKit",
+      "isExternal": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SQLiteConfiguration",
+      "printedName": "SQLiteConfiguration",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "file",
+          "printedName": "file(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConfiguration",
+              "printedName": "SQLiteKit.SQLiteConfiguration",
+              "usr": "s:9SQLiteKit0A13ConfigurationV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteKit0A13ConfigurationV06FluentA6DriverE4fileyACSSFZ",
+          "mangledName": "$s9SQLiteKit0A13ConfigurationV06FluentA6DriverE4fileyACSSFZ",
+          "moduleName": "FluentSQLiteDriver",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "memory",
+          "printedName": "memory",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "SQLiteConfiguration",
+              "printedName": "SQLiteKit.SQLiteConfiguration",
+              "usr": "s:9SQLiteKit0A13ConfigurationV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9SQLiteKit0A13ConfigurationV06FluentA6DriverE6memoryACvpZ",
+          "mangledName": "$s9SQLiteKit0A13ConfigurationV06FluentA6DriverE6memoryACvpZ",
+          "moduleName": "FluentSQLiteDriver",
+          "static": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SQLiteConfiguration",
+                  "printedName": "SQLiteKit.SQLiteConfiguration",
+                  "usr": "s:9SQLiteKit0A13ConfigurationV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9SQLiteKit0A13ConfigurationV06FluentA6DriverE6memoryACvgZ",
+              "mangledName": "$s9SQLiteKit0A13ConfigurationV06FluentA6DriverE6memoryACvgZ",
+              "moduleName": "FluentSQLiteDriver",
+              "static": true,
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9SQLiteKit0A13ConfigurationV",
+      "mangledName": "$s9SQLiteKit0A13ConfigurationV",
+      "moduleName": "SQLiteKit",
+      "isExternal": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Int",
+      "printedName": "Int",
+      "declKind": "Struct",
+      "usr": "s:Si",
+      "mangledName": "$sSi",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "AutoincrementIDInitializable",
+          "printedName": "AutoincrementIDInitializable",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "FixedWidthInteger",
+          "printedName": "FixedWidthInteger",
+          "usr": "s:s17FixedWidthIntegerP",
+          "mangledName": "$ss17FixedWidthIntegerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedInteger",
+          "printedName": "SignedInteger",
+          "usr": "s:SZ",
+          "mangledName": "$sSZ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinIntegerLiteral",
+          "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+          "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+          "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BinaryInteger",
+          "printedName": "BinaryInteger",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Words",
+              "printedName": "Words",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Words",
+                  "printedName": "Swift.Int.Words",
+                  "usr": "s:Si5WordsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sz",
+          "mangledName": "$sSz"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedNumeric",
+          "printedName": "SignedNumeric",
+          "usr": "s:s13SignedNumericP",
+          "mangledName": "$ss13SignedNumericP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Numeric",
+          "printedName": "Numeric",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Magnitude",
+              "printedName": "Magnitude",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sj",
+          "mangledName": "$sSj"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Strideable",
+          "printedName": "Strideable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Stride",
+              "printedName": "Stride",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sx",
+          "mangledName": "$sSx"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AdditiveArithmetic",
+          "printedName": "AdditiveArithmetic",
+          "usr": "s:s18AdditiveArithmeticP",
+          "mangledName": "$ss18AdditiveArithmeticP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByIntegerLiteral",
+          "printedName": "ExpressibleByIntegerLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "IntegerLiteralType",
+              "printedName": "IntegerLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s27ExpressibleByIntegerLiteralP",
+          "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MirrorPath",
+          "printedName": "MirrorPath",
+          "usr": "s:s10MirrorPathP",
+          "mangledName": "$ss10MirrorPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SIMDScalar",
+          "printedName": "SIMDScalar",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SIMDMaskScalar",
+              "printedName": "SIMDMaskScalar",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD2Storage",
+              "printedName": "SIMD2Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD2Storage",
+                  "printedName": "Swift.Int.SIMD2Storage",
+                  "usr": "s:Si12SIMD2StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD4Storage",
+              "printedName": "SIMD4Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD4Storage",
+                  "printedName": "Swift.Int.SIMD4Storage",
+                  "usr": "s:Si12SIMD4StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD8Storage",
+              "printedName": "SIMD8Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD8Storage",
+                  "printedName": "Swift.Int.SIMD8Storage",
+                  "usr": "s:Si12SIMD8StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD16Storage",
+              "printedName": "SIMD16Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD16Storage",
+                  "printedName": "Swift.Int.SIMD16Storage",
+                  "usr": "s:Si13SIMD16StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD32Storage",
+              "printedName": "SIMD32Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD32Storage",
+                  "printedName": "Swift.Int.SIMD32Storage",
+                  "usr": "s:Si13SIMD32StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD64Storage",
+              "printedName": "SIMD64Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD64Storage",
+                  "printedName": "Swift.Int.SIMD64Storage",
+                  "usr": "s:Si13SIMD64StorageV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SIMDScalarP",
+          "mangledName": "$ss10SIMDScalarP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSNumber",
+                  "printedName": "Foundation.NSNumber",
+                  "usr": "c:objc(cs)NSNumber"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_FormatSpecifiable",
+          "printedName": "_FormatSpecifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Arg",
+              "printedName": "_Arg",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation18_FormatSpecifiableP",
+          "mangledName": "$s10Foundation18_FormatSpecifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NIOAtomicPrimitive",
+          "printedName": "NIOAtomicPrimitive",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AtomicWrapper",
+              "printedName": "AtomicWrapper",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "catmc_nio_atomic_long",
+                  "printedName": "CNIOAtomics.catmc_nio_atomic_long",
+                  "usr": "c:@S@catmc_nio_atomic_long"
+                }
+              ]
+            }
+          ],
+          "usr": "s:21NIOConcurrencyHelpers18NIOAtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AtomicPrimitive",
+          "printedName": "AtomicPrimitive",
+          "usr": "s:21NIOConcurrencyHelpers15AtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers15AtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDataConvertible",
+          "printedName": "SQLiteDataConvertible",
+          "usr": "s:9SQLiteNIO0A15DataConvertibleP",
+          "mangledName": "$s9SQLiteNIO0A15DataConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UInt",
+      "printedName": "UInt",
+      "declKind": "Struct",
+      "usr": "s:Su",
+      "mangledName": "$sSu",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "AutoincrementIDInitializable",
+          "printedName": "AutoincrementIDInitializable",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "FixedWidthInteger",
+          "printedName": "FixedWidthInteger",
+          "usr": "s:s17FixedWidthIntegerP",
+          "mangledName": "$ss17FixedWidthIntegerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "UnsignedInteger",
+          "printedName": "UnsignedInteger",
+          "usr": "s:SU",
+          "mangledName": "$sSU"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinIntegerLiteral",
+          "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+          "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+          "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BinaryInteger",
+          "printedName": "BinaryInteger",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Words",
+              "printedName": "Words",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Words",
+                  "printedName": "Swift.UInt.Words",
+                  "usr": "s:Su5WordsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sz",
+          "mangledName": "$sSz"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Numeric",
+          "printedName": "Numeric",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Magnitude",
+              "printedName": "Magnitude",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sj",
+          "mangledName": "$sSj"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Strideable",
+          "printedName": "Strideable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Stride",
+              "printedName": "Stride",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sx",
+          "mangledName": "$sSx"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AdditiveArithmetic",
+          "printedName": "AdditiveArithmetic",
+          "usr": "s:s18AdditiveArithmeticP",
+          "mangledName": "$ss18AdditiveArithmeticP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByIntegerLiteral",
+          "printedName": "ExpressibleByIntegerLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "IntegerLiteralType",
+              "printedName": "IntegerLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt",
+                  "printedName": "Swift.UInt",
+                  "usr": "s:Su"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s27ExpressibleByIntegerLiteralP",
+          "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SIMDScalar",
+          "printedName": "SIMDScalar",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SIMDMaskScalar",
+              "printedName": "SIMDMaskScalar",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD2Storage",
+              "printedName": "SIMD2Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD2Storage",
+                  "printedName": "Swift.UInt.SIMD2Storage",
+                  "usr": "s:Su12SIMD2StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD4Storage",
+              "printedName": "SIMD4Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD4Storage",
+                  "printedName": "Swift.UInt.SIMD4Storage",
+                  "usr": "s:Su12SIMD4StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD8Storage",
+              "printedName": "SIMD8Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD8Storage",
+                  "printedName": "Swift.UInt.SIMD8Storage",
+                  "usr": "s:Su12SIMD8StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD16Storage",
+              "printedName": "SIMD16Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD16Storage",
+                  "printedName": "Swift.UInt.SIMD16Storage",
+                  "usr": "s:Su13SIMD16StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD32Storage",
+              "printedName": "SIMD32Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD32Storage",
+                  "printedName": "Swift.UInt.SIMD32Storage",
+                  "usr": "s:Su13SIMD32StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD64Storage",
+              "printedName": "SIMD64Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD64Storage",
+                  "printedName": "Swift.UInt.SIMD64Storage",
+                  "usr": "s:Su13SIMD64StorageV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SIMDScalarP",
+          "mangledName": "$ss10SIMDScalarP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSNumber",
+                  "printedName": "Foundation.NSNumber",
+                  "usr": "c:objc(cs)NSNumber"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_FormatSpecifiable",
+          "printedName": "_FormatSpecifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Arg",
+              "printedName": "_Arg",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt64",
+                  "printedName": "Swift.UInt64",
+                  "usr": "s:s6UInt64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation18_FormatSpecifiableP",
+          "mangledName": "$s10Foundation18_FormatSpecifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NIOAtomicPrimitive",
+          "printedName": "NIOAtomicPrimitive",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AtomicWrapper",
+              "printedName": "AtomicWrapper",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "catmc_nio_atomic_unsigned_long",
+                  "printedName": "CNIOAtomics.catmc_nio_atomic_unsigned_long",
+                  "usr": "c:@S@catmc_nio_atomic_unsigned_long"
+                }
+              ]
+            }
+          ],
+          "usr": "s:21NIOConcurrencyHelpers18NIOAtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AtomicPrimitive",
+          "printedName": "AtomicPrimitive",
+          "usr": "s:21NIOConcurrencyHelpers15AtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers15AtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDataConvertible",
+          "printedName": "SQLiteDataConvertible",
+          "usr": "s:9SQLiteNIO0A15DataConvertibleP",
+          "mangledName": "$s9SQLiteNIO0A15DataConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Int64",
+      "printedName": "Int64",
+      "declKind": "Struct",
+      "usr": "s:s5Int64V",
+      "mangledName": "$ss5Int64V",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "AutoincrementIDInitializable",
+          "printedName": "AutoincrementIDInitializable",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "FixedWidthInteger",
+          "printedName": "FixedWidthInteger",
+          "usr": "s:s17FixedWidthIntegerP",
+          "mangledName": "$ss17FixedWidthIntegerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedInteger",
+          "printedName": "SignedInteger",
+          "usr": "s:SZ",
+          "mangledName": "$sSZ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinIntegerLiteral",
+          "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+          "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+          "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BinaryInteger",
+          "printedName": "BinaryInteger",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Words",
+              "printedName": "Words",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Words",
+                  "printedName": "Swift.Int64.Words",
+                  "usr": "s:s5Int64V5WordsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sz",
+          "mangledName": "$sSz"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SignedNumeric",
+          "printedName": "SignedNumeric",
+          "usr": "s:s13SignedNumericP",
+          "mangledName": "$ss13SignedNumericP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Numeric",
+          "printedName": "Numeric",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Magnitude",
+              "printedName": "Magnitude",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt64",
+                  "printedName": "Swift.UInt64",
+                  "usr": "s:s6UInt64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sj",
+          "mangledName": "$sSj"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Strideable",
+          "printedName": "Strideable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Stride",
+              "printedName": "Stride",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sx",
+          "mangledName": "$sSx"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AdditiveArithmetic",
+          "printedName": "AdditiveArithmetic",
+          "usr": "s:s18AdditiveArithmeticP",
+          "mangledName": "$ss18AdditiveArithmeticP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByIntegerLiteral",
+          "printedName": "ExpressibleByIntegerLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "IntegerLiteralType",
+              "printedName": "IntegerLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s27ExpressibleByIntegerLiteralP",
+          "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CVarArgAligned",
+          "printedName": "_CVarArgAligned",
+          "usr": "s:s15_CVarArgAlignedP",
+          "mangledName": "$ss15_CVarArgAlignedP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SIMDScalar",
+          "printedName": "SIMDScalar",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SIMDMaskScalar",
+              "printedName": "SIMDMaskScalar",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD2Storage",
+              "printedName": "SIMD2Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD2Storage",
+                  "printedName": "Swift.Int64.SIMD2Storage",
+                  "usr": "s:s5Int64V12SIMD2StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD4Storage",
+              "printedName": "SIMD4Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD4Storage",
+                  "printedName": "Swift.Int64.SIMD4Storage",
+                  "usr": "s:s5Int64V12SIMD4StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD8Storage",
+              "printedName": "SIMD8Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD8Storage",
+                  "printedName": "Swift.Int64.SIMD8Storage",
+                  "usr": "s:s5Int64V12SIMD8StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD16Storage",
+              "printedName": "SIMD16Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD16Storage",
+                  "printedName": "Swift.Int64.SIMD16Storage",
+                  "usr": "s:s5Int64V13SIMD16StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD32Storage",
+              "printedName": "SIMD32Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD32Storage",
+                  "printedName": "Swift.Int64.SIMD32Storage",
+                  "usr": "s:s5Int64V13SIMD32StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD64Storage",
+              "printedName": "SIMD64Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD64Storage",
+                  "printedName": "Swift.Int64.SIMD64Storage",
+                  "usr": "s:s5Int64V13SIMD64StorageV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SIMDScalarP",
+          "mangledName": "$ss10SIMDScalarP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSNumber",
+                  "printedName": "Foundation.NSNumber",
+                  "usr": "c:objc(cs)NSNumber"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_FormatSpecifiable",
+          "printedName": "_FormatSpecifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Arg",
+              "printedName": "_Arg",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation18_FormatSpecifiableP",
+          "mangledName": "$s10Foundation18_FormatSpecifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NIOAtomicPrimitive",
+          "printedName": "NIOAtomicPrimitive",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AtomicWrapper",
+              "printedName": "AtomicWrapper",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "catmc_nio_atomic_long_long",
+                  "printedName": "CNIOAtomics.catmc_nio_atomic_long_long",
+                  "usr": "c:@S@catmc_nio_atomic_long_long"
+                }
+              ]
+            }
+          ],
+          "usr": "s:21NIOConcurrencyHelpers18NIOAtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AtomicPrimitive",
+          "printedName": "AtomicPrimitive",
+          "usr": "s:21NIOConcurrencyHelpers15AtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers15AtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDataConvertible",
+          "printedName": "SQLiteDataConvertible",
+          "usr": "s:9SQLiteNIO0A15DataConvertibleP",
+          "mangledName": "$s9SQLiteNIO0A15DataConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "UInt64",
+      "printedName": "UInt64",
+      "declKind": "Struct",
+      "usr": "s:s6UInt64V",
+      "mangledName": "$ss6UInt64V",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "AutoincrementIDInitializable",
+          "printedName": "AutoincrementIDInitializable",
+          "usr": "s:18FluentSQLiteDriver28AutoincrementIDInitializableP",
+          "mangledName": "$s18FluentSQLiteDriver28AutoincrementIDInitializableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "FixedWidthInteger",
+          "printedName": "FixedWidthInteger",
+          "usr": "s:s17FixedWidthIntegerP",
+          "mangledName": "$ss17FixedWidthIntegerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "UnsignedInteger",
+          "printedName": "UnsignedInteger",
+          "usr": "s:SU",
+          "mangledName": "$sSU"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinIntegerLiteral",
+          "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+          "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+          "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BinaryInteger",
+          "printedName": "BinaryInteger",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Words",
+              "printedName": "Words",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Words",
+                  "printedName": "Swift.UInt64.Words",
+                  "usr": "s:s6UInt64V5WordsV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sz",
+          "mangledName": "$sSz"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Numeric",
+          "printedName": "Numeric",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Magnitude",
+              "printedName": "Magnitude",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt64",
+                  "printedName": "Swift.UInt64",
+                  "usr": "s:s6UInt64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sj",
+          "mangledName": "$sSj"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Strideable",
+          "printedName": "Strideable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Stride",
+              "printedName": "Stride",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sx",
+          "mangledName": "$sSx"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AdditiveArithmetic",
+          "printedName": "AdditiveArithmetic",
+          "usr": "s:s18AdditiveArithmeticP",
+          "mangledName": "$ss18AdditiveArithmeticP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByIntegerLiteral",
+          "printedName": "ExpressibleByIntegerLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "IntegerLiteralType",
+              "printedName": "IntegerLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt64",
+                  "printedName": "Swift.UInt64",
+                  "usr": "s:s6UInt64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s27ExpressibleByIntegerLiteralP",
+          "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CVarArgAligned",
+          "printedName": "_CVarArgAligned",
+          "usr": "s:s15_CVarArgAlignedP",
+          "mangledName": "$ss15_CVarArgAlignedP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SIMDScalar",
+          "printedName": "SIMDScalar",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SIMDMaskScalar",
+              "printedName": "SIMDMaskScalar",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int64",
+                  "printedName": "Swift.Int64",
+                  "usr": "s:s5Int64V"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD2Storage",
+              "printedName": "SIMD2Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD2Storage",
+                  "printedName": "Swift.UInt64.SIMD2Storage",
+                  "usr": "s:s6UInt64V12SIMD2StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD4Storage",
+              "printedName": "SIMD4Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD4Storage",
+                  "printedName": "Swift.UInt64.SIMD4Storage",
+                  "usr": "s:s6UInt64V12SIMD4StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD8Storage",
+              "printedName": "SIMD8Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD8Storage",
+                  "printedName": "Swift.UInt64.SIMD8Storage",
+                  "usr": "s:s6UInt64V12SIMD8StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD16Storage",
+              "printedName": "SIMD16Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD16Storage",
+                  "printedName": "Swift.UInt64.SIMD16Storage",
+                  "usr": "s:s6UInt64V13SIMD16StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD32Storage",
+              "printedName": "SIMD32Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD32Storage",
+                  "printedName": "Swift.UInt64.SIMD32Storage",
+                  "usr": "s:s6UInt64V13SIMD32StorageV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SIMD64Storage",
+              "printedName": "SIMD64Storage",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "SIMD64Storage",
+                  "printedName": "Swift.UInt64.SIMD64Storage",
+                  "usr": "s:s6UInt64V13SIMD64StorageV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s10SIMDScalarP",
+          "mangledName": "$ss10SIMDScalarP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSNumber",
+                  "printedName": "Foundation.NSNumber",
+                  "usr": "c:objc(cs)NSNumber"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_FormatSpecifiable",
+          "printedName": "_FormatSpecifiable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_Arg",
+              "printedName": "_Arg",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UInt64",
+                  "printedName": "Swift.UInt64",
+                  "usr": "s:s6UInt64V"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10Foundation18_FormatSpecifiableP",
+          "mangledName": "$s10Foundation18_FormatSpecifiableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "NIOAtomicPrimitive",
+          "printedName": "NIOAtomicPrimitive",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "AtomicWrapper",
+              "printedName": "AtomicWrapper",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "catmc_nio_atomic_unsigned_long_long",
+                  "printedName": "CNIOAtomics.catmc_nio_atomic_unsigned_long_long",
+                  "usr": "c:@S@catmc_nio_atomic_unsigned_long_long"
+                }
+              ]
+            }
+          ],
+          "usr": "s:21NIOConcurrencyHelpers18NIOAtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers18NIOAtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "AtomicPrimitive",
+          "printedName": "AtomicPrimitive",
+          "usr": "s:21NIOConcurrencyHelpers15AtomicPrimitiveP",
+          "mangledName": "$s21NIOConcurrencyHelpers15AtomicPrimitiveP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLiteDataConvertible",
+          "printedName": "SQLiteDataConvertible",
+          "usr": "s:9SQLiteNIO0A15DataConvertibleP",
+          "mangledName": "$s9SQLiteNIO0A15DataConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SQLiteError",
+      "printedName": "SQLiteError",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "isSyntaxError",
+          "printedName": "isSyntaxError",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE08isSyntaxC0Sbvp",
+          "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE08isSyntaxC0Sbvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE08isSyntaxC0Sbvg",
+              "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE08isSyntaxC0Sbvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isConnectionClosed",
+          "printedName": "isConnectionClosed",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE18isConnectionClosedSbvp",
+          "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE18isConnectionClosedSbvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE18isConnectionClosedSbvg",
+              "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE18isConnectionClosedSbvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "isConstraintFailure",
+          "printedName": "isConstraintFailure",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE19isConstraintFailureSbvp",
+          "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE19isConstraintFailureSbvp",
+          "moduleName": "FluentSQLiteDriver",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:9SQLiteNIO0A5ErrorV06FluentA6DriverE19isConstraintFailureSbvg",
+              "mangledName": "$s9SQLiteNIO0A5ErrorV06FluentA6DriverE19isConstraintFailureSbvg",
+              "moduleName": "FluentSQLiteDriver",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9SQLiteNIO0A5ErrorV",
+      "mangledName": "$s9SQLiteNIO0A5ErrorV",
+      "moduleName": "SQLiteNIO",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "DatabaseError",
+          "printedName": "DatabaseError",
+          "usr": "s:9FluentKit13DatabaseErrorP",
+          "mangledName": "$s9FluentKit13DatabaseErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LocalizedError",
+          "printedName": "LocalizedError",
+          "usr": "s:10Foundation14LocalizedErrorP",
+          "mangledName": "$s10Foundation14LocalizedErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Error",
+          "printedName": "Error",
+          "usr": "s:s5ErrorP",
+          "mangledName": "$ss5ErrorP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "SQLiteRow",
+      "printedName": "SQLiteRow",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "schema",
+          "printedName": "schema(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "DatabaseOutput",
+              "printedName": "FluentKit.DatabaseOutput",
+              "usr": "s:9FluentKit14DatabaseOutputP"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteNIO0A3RowV06FluentA6DriverE6schemay0D3Kit14DatabaseOutput_pSSF",
+          "mangledName": "$s9SQLiteNIO0A3RowV06FluentA6DriverE6schemay0D3Kit14DatabaseOutput_pSSF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "contains",
+          "printedName": "contains(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FieldKey",
+              "printedName": "FluentKit.FieldKey",
+              "usr": "s:9FluentKit8FieldKeyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteNIO0A3RowV06FluentA6DriverE8containsySb0D3Kit8FieldKeyOF",
+          "mangledName": "$s9SQLiteNIO0A3RowV06FluentA6DriverE8containsySb0D3Kit8FieldKeyOF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decodeNil",
+          "printedName": "decodeNil(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FieldKey",
+              "printedName": "FluentKit.FieldKey",
+              "usr": "s:9FluentKit8FieldKeyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteNIO0A3RowV06FluentA6DriverE9decodeNilySb0D3Kit8FieldKeyOKF",
+          "mangledName": "$s9SQLiteNIO0A3RowV06FluentA6DriverE9decodeNilySb0D3Kit8FieldKeyOKF",
+          "moduleName": "FluentSQLiteDriver",
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "decode",
+          "printedName": "decode(_:as:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FieldKey",
+              "printedName": "FluentKit.FieldKey",
+              "usr": "s:9FluentKit8FieldKeyO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteNIO0A3RowV06FluentA6DriverE6decode_2asx0D3Kit8FieldKeyO_xmtKSeRzlF",
+          "mangledName": "$s9SQLiteNIO0A3RowV06FluentA6DriverE6decode_2asx0D3Kit8FieldKeyO_xmtKSeRzlF",
+          "moduleName": "FluentSQLiteDriver",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+          "sugared_genericSig": "<T where T : Swift.Decodable>",
+          "throwing": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "columnName",
+          "printedName": "columnName(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "FieldKey",
+              "printedName": "FluentKit.FieldKey",
+              "usr": "s:9FluentKit8FieldKeyO"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9SQLiteNIO0A3RowV06FluentA6DriverE10columnNameySS0D3Kit8FieldKeyOF",
+          "mangledName": "$s9SQLiteNIO0A3RowV06FluentA6DriverE10columnNameySS0D3Kit8FieldKeyOF",
+          "moduleName": "FluentSQLiteDriver",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:9SQLiteNIO0A3RowV",
+      "mangledName": "$s9SQLiteNIO0A3RowV",
+      "moduleName": "SQLiteNIO",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "DatabaseOutput",
+          "printedName": "DatabaseOutput",
+          "usr": "s:9FluentKit14DatabaseOutputP",
+          "mangledName": "$s9FluentKit14DatabaseOutputP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "SQLRow",
+          "printedName": "SQLRow",
+          "usr": "s:6SQLKit6SQLRowP",
+          "mangledName": "$s6SQLKit6SQLRowP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

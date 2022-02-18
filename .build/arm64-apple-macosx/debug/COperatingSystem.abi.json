@@ -1,0 +1,42 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Darwin.C",
+      "printedName": "Darwin.C",
+      "declKind": "Import",
+      "moduleName": "COperatingSystem",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Darwin",
+      "printedName": "Darwin",
+      "declKind": "Import",
+      "moduleName": "COperatingSystem",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "COperatingSystem"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "COperatingSystem"
+    }
+  ],
+  "json_format_version": 6
+}

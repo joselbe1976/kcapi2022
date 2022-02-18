@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "1569378c6b9fdb5283d8151003a43f4e2b10f3b29e28f96613d41351bef6078c"
+build_start_time: [1645219374, 787127017]
+build_end_time: [1645219375, 337900161]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/Application+JWT.swift": [1645219335, 170184373]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/AsyncJWTAuthenticator.swift": [1645219335, 170244693]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/Exports.swift": [1645219335, 170295715]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWKSCache.swift": [1645219335, 170366764]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWT+Apple.swift": [1645219335, 170422077]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWT+Concurrency.swift": [1645219335, 170491933]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWT+Google.swift": [1645219335, 170564174]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWT+Microsoft.swift": [1645219335, 170620441]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWTAuthenticator.swift": [1645219335, 170698642]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/JWTError+Vapor.swift": [1645219335, 170750617]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt/Sources/JWT/Request+JWT.swift": [1645219335, 170809745]

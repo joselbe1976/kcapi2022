@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "16d7dad600fcb7ff2320606f53265fe3d595aa2a55b147bfb23cc3bb0113d567"
+build_start_time: [1645219359, 999557018]
+build_end_time: [1645219360, 535073041]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOEmbedded/Embedded.swift": [1645219334, 899924278]

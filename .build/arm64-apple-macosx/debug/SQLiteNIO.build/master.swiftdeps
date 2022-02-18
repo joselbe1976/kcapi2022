@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "3d6c571ee8c34ddc10027f9866749aadda89e34050e6736018132b99b9150ba9"
+build_start_time: [1645219361, 393156051]
+build_end_time: [1645219363, 6633996]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/Exports.swift": [1645219337, 417407989]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteConnection.swift": [1645219337, 417496919]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteData.swift": [1645219337, 417570829]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataConvertible.swift": [1645219337, 417640686]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteDataType.swift": [1645219337, 417697429]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteError.swift": [1645219337, 417767524]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteRow.swift": [1645219337, 417822122]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/sqlite-nio/Sources/SQLiteNIO/SQLiteStatement.swift": [1645219337, 417904376]

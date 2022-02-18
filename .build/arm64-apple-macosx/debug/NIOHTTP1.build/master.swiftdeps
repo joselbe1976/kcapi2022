@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "e2ab69f1adaff3579ba2b6a4878f7599552cbb0622cec7cdc2fca8cd7baaad78"
+build_start_time: [1645219361, 390442848]
+build_end_time: [1645219363, 498492956]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/ByteCollectionUtils.swift": [1645219334, 900372982]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPDecoder.swift": [1645219334, 900559663]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPEncoder.swift": [1645219334, 900693416]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPPipelineSetup.swift": [1645219334, 900798082]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerPipelineHandler.swift": [1645219334, 900947570]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerProtocolErrorHandler.swift"
+  : [1645219334, 901048421]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPServerUpgradeHandler.swift": [1645219334, 901162147]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/HTTPTypes.swift": [1645219334, 901387691]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPClientUpgradeHandler.swift"
+  : [1645219334, 901517629]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOHTTP1/NIOHTTPObjectAggregator.swift": [1645219334, 901628494]

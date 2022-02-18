@@ -244,23 +244,4 @@ struct Create_Data_Heros_v1: Migration {
     }
 }
 
-struct Create_Data_Transformations_v1: Migration {
-    func prepare(on database: Database) -> EventLoopFuture<Void> {
-        database.schema(Developers.schema)
-            .id()
-            .field("name", .string, .required)
-            .field("apell1", .string, .required)
-            .field("apell2", .string, .required)
-            .field("email", .string, .required)
-            .field("photo", .string) //foto del empleado, no es requerido
-            .field("bootcamp", .uuid, .required)
-            .foreignKey("bootcamp", references: Bootcamps.schema, "id", onDelete: .restrict, onUpdate: .cascade, name: "FK_ADeveloper_Bootcamp") // FK con Tabla Bootcamps
-           
-            .create()
-    }
 
-    func revert(on database: Database) -> EventLoopFuture<Void> {
-        database.schema(Developers.schema)
-            .delete()
-    }
-}

@@ -1,0 +1,87 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "b621fd5633046df513e0dd2e79a03211bf5b1c49c470eee462c55a90a663a78e"
+build_start_time: [1645219366, 997737884]
+build_end_time: [1645219368, 428284168]
+inputs:
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/BestEffortHashableTLSConfiguration.swift"
+  : [1645219334, 648168325]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool.swift"
+  : [1645219334, 648249149]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/ChannelHandler/HTTP1ProxyConnectHandler.swift"
+  : [1645219334, 648400783]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/ChannelHandler/SOCKSEventsHandler.swift"
+  : [1645219334, 648622274]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/ChannelHandler/TLSEventsHandler.swift"
+  : [1645219334, 648699998]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP1.1/HTTP1ClientChannelHandler.swift"
+  : [1645219334, 649023294]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP1.1/HTTP1Connection.swift"
+  : [1645219334, 649154424]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP1.1/HTTP1ConnectionStateMachine.swift"
+  : [1645219334, 649358749]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP2/HTTP2ClientRequestHandler.swift"
+  : [1645219334, 649451255]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP2/HTTP2Connection.swift"
+  : [1645219334, 649509906]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTP2/HTTP2IdleHandler.swift"
+  : [1645219334, 649604797]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPConnectionEvent.swift"
+  : [1645219334, 649823665]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPConnectionPool+Factory.swift"
+  : [1645219334, 649934768]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPConnectionPool+Manager.swift"
+  : [1645219334, 650253534]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPConnectionPool.swift"
+  : [1645219334, 650387048]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPExecutableRequest.swift"
+  : [1645219334, 650516271]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPRequestStateMachine+Demand.swift"
+  : [1645219334, 650703191]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/HTTPRequestStateMachine.swift"
+  : [1645219334, 650797843]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/RequestBodyLength.swift"
+  : [1645219334, 650872230]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/RequestFramingMetadata.swift"
+  : [1645219334, 650932312]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/RequestOptions.swift"
+  : [1645219334, 651058673]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+Backoff.swift"
+  : [1645219334, 651169300]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+HTTP1Connections.swift"
+  : [1645219334, 651330232]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+HTTP1StateMachine.swift"
+  : [1645219334, 651659011]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+HTTP2Connections.swift"
+  : [1645219334, 651860713]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+HTTP2StateMachine.swift"
+  : [1645219334, 651999473]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+RequestQueue.swift"
+  : [1645219334, 652090311]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionPool/State Machine/HTTPConnectionPool+StateMachine.swift"
+  : [1645219334, 652302265]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/ConnectionTarget.swift"
+  : [1645219334, 652365446]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/FileDownloadDelegate.swift"
+  : [1645219334, 652436256]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient+HTTPCookie.swift"
+  : [1645219334, 652509927]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient+Proxy.swift"
+  : [1645219334, 652580022]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPClient.swift": [1645219334, 652834892]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/HTTPHandler.swift"
+  : [1645219334, 652993917]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/LRUCache.swift": [1645219334, 653072357]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/NIOTransportServices/NWErrorHandler.swift"
+  : [1645219334, 653168201]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/NIOTransportServices/TLSConfiguration.swift"
+  : [1645219334, 653266668]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestBag+StateMachine.swift"
+  : [1645219334, 653385639]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestBag.swift": [1645219334, 653498888]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/RequestValidation.swift"
+  : [1645219334, 653595924]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/SSLContextCache.swift"
+  : [1645219334, 653662681]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/StringConvertibleInstances.swift"
+  : [1645219334, 653751850]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/async-http-client/Sources/AsyncHTTPClient/Utils.swift": [1645219334, 653815031]

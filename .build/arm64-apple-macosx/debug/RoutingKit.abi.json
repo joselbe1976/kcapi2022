@@ -1,0 +1,3281 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "AnyRouter",
+      "printedName": "AnyRouter",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "box",
+          "printedName": "box",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "_AnyRouterBase",
+              "printedName": "RoutingKit._AnyRouterBase<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:10RoutingKit14_AnyRouterBase33_8EB244D92B4BF73E7959E9D0F9B49EB9LLC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit9AnyRouterV3box33_8EB244D92B4BF73E7959E9D0F9B49EB9LLAA01_cD4BaseAELLCyxGvp",
+          "mangledName": "$s10RoutingKit9AnyRouterV3box33_8EB244D92B4BF73E7959E9D0F9B49EB9LLAA01_cD4BaseAELLCyxGvp",
+          "moduleName": "RoutingKit",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyRouter",
+              "printedName": "RoutingKit.AnyRouter<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:10RoutingKit9AnyRouterV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_1_0"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RoutingKit9AnyRouterVyACyxGqd__c6OutputQyd__RszAA0D0Rd__lufc",
+          "mangledName": "$s10RoutingKit9AnyRouterVyACyxGqd__c6OutputQyd__RszAA0D0Rd__lufc",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 == τ_1_0.Output, τ_1_0 : RoutingKit.Router>",
+          "sugared_genericSig": "<Output, Router where Output == Router.Output, Router : RoutingKit.Router>",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(_:at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RoutingKit.PathComponent]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit9AnyRouterV8register_2atyx_SayAA13PathComponentOGtF",
+          "mangledName": "$s10RoutingKit9AnyRouterV8register_2atyx_SayAA13PathComponentOGtF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "route",
+          "printedName": "route(path:parameters:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Parameters",
+              "printedName": "RoutingKit.Parameters",
+              "paramValueOwnership": "InOut",
+              "usr": "s:10RoutingKit10ParametersV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit9AnyRouterV5route4path10parametersxSgSaySSG_AA10ParametersVztF",
+          "mangledName": "$s10RoutingKit9AnyRouterV5route4path10parametersxSgSaySSG_AA10ParametersVztF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RoutingKit9AnyRouterV",
+      "mangledName": "$s10RoutingKit9AnyRouterV",
+      "moduleName": "RoutingKit",
+      "genericSig": "<τ_0_0>",
+      "sugared_genericSig": "<Output>",
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Router",
+          "printedName": "Router",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Output",
+              "printedName": "Output",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10RoutingKit6RouterP",
+          "mangledName": "$s10RoutingKit6RouterP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Parameters",
+      "printedName": "Parameters",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "values",
+          "printedName": "values",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Swift.String : Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit10ParametersV6values33_E2E7B9C1C714E74B5585BA5504E9016CLLSDyS2SGvp",
+          "mangledName": "$s10RoutingKit10ParametersV6values33_E2E7B9C1C714E74B5585BA5504E9016CLLSDyS2SGvp",
+          "moduleName": "RoutingKit",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "catchall",
+          "printedName": "catchall",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Catchall",
+              "printedName": "RoutingKit.Parameters.Catchall",
+              "usr": "s:10RoutingKit10ParametersV8Catchall33_E2E7B9C1C714E74B5585BA5504E9016CLLV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit10ParametersV8catchall33_E2E7B9C1C714E74B5585BA5504E9016CLLAC8CatchallAELLVvp",
+          "mangledName": "$s10RoutingKit10ParametersV8catchall33_E2E7B9C1C714E74B5585BA5504E9016CLLAC8CatchallAELLVvp",
+          "moduleName": "RoutingKit",
+          "isInternal": true,
+          "declAttributes": [
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Parameters",
+              "printedName": "RoutingKit.Parameters",
+              "usr": "s:10RoutingKit10ParametersV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RoutingKit10ParametersVACycfc",
+          "mangledName": "$s10RoutingKit10ParametersVACycfc",
+          "moduleName": "RoutingKit",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "get",
+          "printedName": "get(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10ParametersV3getySSSgSSF",
+          "mangledName": "$s10RoutingKit10ParametersV3getySSSgSSF",
+          "moduleName": "RoutingKit",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "get",
+          "printedName": "get(_:as:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "hasDefaultArg": true
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10ParametersV3get_2asxSgSS_xmts25LosslessStringConvertibleRzlF",
+          "mangledName": "$s10RoutingKit10ParametersV3get_2asxSgSS_xmts25LosslessStringConvertibleRzlF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0 where τ_0_0 : Swift.LosslessStringConvertible>",
+          "sugared_genericSig": "<T where T : Swift.LosslessStringConvertible>",
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "set",
+          "printedName": "set(_:to:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Swift.String?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10ParametersV3set_2toySS_SSSgtF",
+          "mangledName": "$s10RoutingKit10ParametersV3set_2toySS_SSSgtF",
+          "moduleName": "RoutingKit",
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "getCatchall",
+          "printedName": "getCatchall()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10ParametersV11getCatchallSaySSGyF",
+          "mangledName": "$s10RoutingKit10ParametersV11getCatchallSaySSGyF",
+          "moduleName": "RoutingKit",
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "setCatchall",
+          "printedName": "setCatchall(matched:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10ParametersV11setCatchall7matchedySaySSG_tF",
+          "mangledName": "$s10RoutingKit10ParametersV11setCatchall7matchedySaySSG_tF",
+          "moduleName": "RoutingKit",
+          "funcSelfKind": "Mutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:10RoutingKit10ParametersV",
+      "mangledName": "$s10RoutingKit10ParametersV",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "PathComponent",
+      "printedName": "PathComponent",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "constant",
+          "printedName": "constant",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RoutingKit.PathComponent.Type) -> (Swift.String) -> RoutingKit.PathComponent",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> RoutingKit.PathComponent",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RoutingKit.PathComponent.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10RoutingKit13PathComponentO8constantyACSScACmF",
+          "mangledName": "$s10RoutingKit13PathComponentO8constantyACSScACmF",
+          "moduleName": "RoutingKit",
+          "fixedbinaryorder": 0
+        },
+        {
+          "kind": "Var",
+          "name": "parameter",
+          "printedName": "parameter",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RoutingKit.PathComponent.Type) -> (Swift.String) -> RoutingKit.PathComponent",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(Swift.String) -> RoutingKit.PathComponent",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RoutingKit.PathComponent.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10RoutingKit13PathComponentO9parameteryACSScACmF",
+          "mangledName": "$s10RoutingKit13PathComponentO9parameteryACSScACmF",
+          "moduleName": "RoutingKit",
+          "fixedbinaryorder": 1
+        },
+        {
+          "kind": "Var",
+          "name": "anything",
+          "printedName": "anything",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RoutingKit.PathComponent.Type) -> RoutingKit.PathComponent",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RoutingKit.PathComponent.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10RoutingKit13PathComponentO8anythingyA2CmF",
+          "mangledName": "$s10RoutingKit13PathComponentO8anythingyA2CmF",
+          "moduleName": "RoutingKit",
+          "fixedbinaryorder": 2
+        },
+        {
+          "kind": "Var",
+          "name": "catchall",
+          "printedName": "catchall",
+          "children": [
+            {
+              "kind": "TypeFunc",
+              "name": "Function",
+              "printedName": "(RoutingKit.PathComponent.Type) -> RoutingKit.PathComponent",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Metatype",
+                  "printedName": "RoutingKit.PathComponent.Type",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "declKind": "EnumElement",
+          "usr": "s:10RoutingKit13PathComponentO8catchallyA2CmF",
+          "mangledName": "$s10RoutingKit13PathComponentO8catchallyA2CmF",
+          "moduleName": "RoutingKit",
+          "fixedbinaryorder": 3
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(stringLiteral:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "PathComponent",
+              "printedName": "RoutingKit.PathComponent",
+              "usr": "s:10RoutingKit13PathComponentO"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RoutingKit13PathComponentO13stringLiteralACSS_tcfc",
+          "mangledName": "$s10RoutingKit13PathComponentO13stringLiteralACSS_tcfc",
+          "moduleName": "RoutingKit",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit13PathComponentO11descriptionSSvp",
+          "mangledName": "$s10RoutingKit13PathComponentO11descriptionSSvp",
+          "moduleName": "RoutingKit",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RoutingKit13PathComponentO11descriptionSSvg",
+              "mangledName": "$s10RoutingKit13PathComponentO11descriptionSSvg",
+              "moduleName": "RoutingKit",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:10RoutingKit13PathComponentO",
+      "mangledName": "$s10RoutingKit13PathComponentO",
+      "moduleName": "RoutingKit",
+      "isEnumExhaustive": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringLiteral",
+          "printedName": "ExpressibleByStringLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringLiteralType",
+              "printedName": "StringLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s26ExpressibleByStringLiteralP",
+          "mangledName": "$ss26ExpressibleByStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringInterpolation",
+          "printedName": "ExpressibleByStringInterpolation",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringInterpolation",
+              "printedName": "StringInterpolation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultStringInterpolation",
+                  "printedName": "Swift.DefaultStringInterpolation",
+                  "usr": "s:s26DefaultStringInterpolationV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s32ExpressibleByStringInterpolationP",
+          "mangledName": "$ss32ExpressibleByStringInterpolationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ExtendedGraphemeClusterLiteralType",
+              "printedName": "ExtendedGraphemeClusterLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByUnicodeScalarLiteral",
+          "printedName": "ExpressibleByUnicodeScalarLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarLiteralType",
+              "printedName": "UnicodeScalarLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+          "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Router",
+      "printedName": "Router",
+      "children": [
+        {
+          "kind": "AssociatedType",
+          "name": "Output",
+          "printedName": "Output",
+          "declKind": "AssociatedType",
+          "usr": "s:10RoutingKit6RouterP6OutputQa",
+          "mangledName": "$s10RoutingKit6RouterP6OutputQa",
+          "moduleName": "RoutingKit",
+          "protocolReq": true
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(_:at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DependentMember",
+              "printedName": "τ_0_0.Output"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RoutingKit.PathComponent]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit6RouterP8register_2aty6OutputQz_SayAA13PathComponentOGtF",
+          "mangledName": "$s10RoutingKit6RouterP8register_2aty6OutputQz_SayAA13PathComponentOGtF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0 where τ_0_0 : RoutingKit.Router>",
+          "sugared_genericSig": "<Self where Self : RoutingKit.Router>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "route",
+          "printedName": "route(path:parameters:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0.Output?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DependentMember",
+                  "printedName": "τ_0_0.Output"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Parameters",
+              "printedName": "RoutingKit.Parameters",
+              "paramValueOwnership": "InOut",
+              "usr": "s:10RoutingKit10ParametersV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit6RouterP5route4path10parameters6OutputQzSgSaySSG_AA10ParametersVztF",
+          "mangledName": "$s10RoutingKit6RouterP5route4path10parameters6OutputQzSgSaySSG_AA10ParametersVztF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0 where τ_0_0 : RoutingKit.Router>",
+          "sugared_genericSig": "<Self where Self : RoutingKit.Router>",
+          "protocolReq": true,
+          "reqNewWitnessTableEntry": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "eraseToAnyRouter",
+          "printedName": "eraseToAnyRouter()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "AnyRouter",
+              "printedName": "RoutingKit.AnyRouter<τ_0_0.Output>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DependentMember",
+                  "printedName": "τ_0_0.Output"
+                }
+              ],
+              "usr": "s:10RoutingKit9AnyRouterV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit6RouterPAAE010eraseToAnyC0AA0fC0Vy6OutputQzGyF",
+          "mangledName": "$s10RoutingKit6RouterPAAE010eraseToAnyC0AA0fC0Vy6OutputQzGyF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0 where τ_0_0 : RoutingKit.Router>",
+          "sugared_genericSig": "<Self where Self : RoutingKit.Router>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:10RoutingKit6RouterP",
+      "mangledName": "$s10RoutingKit6RouterP",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "RoutingKit"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "TrieRouter",
+      "printedName": "TrieRouter",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "ConfigurationOption",
+          "printedName": "ConfigurationOption",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "caseInsensitive",
+              "printedName": "caseInsensitive",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "GenericFunction",
+                  "printedName": "<τ_0_0> (RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption.Type) -> RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationOption",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                      "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ConfigurationOption",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                          "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO15caseInsensitiveyAEyx_GAGmlF",
+              "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO15caseInsensitiveyAEyx_GAGmlF",
+              "moduleName": "RoutingKit",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationOption",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                  "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationOption",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                  "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO21__derived_enum_equalsySbAEyx_G_AGtFZ",
+              "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO21__derived_enum_equalsySbAEyx_G_AGtFZ",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "static": true,
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO4hash4intoys6HasherVz_tF",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO9hashValueSivp",
+              "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO9hashValueSivp",
+              "moduleName": "RoutingKit",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO9hashValueSivg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO9hashValueSivg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO",
+          "mangledName": "$s10RoutingKit10TrieRouterC19ConfigurationOptionO",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "options",
+          "printedName": "options",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationOption",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                  "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                }
+              ],
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvp",
+          "mangledName": "$s10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvp",
+          "moduleName": "RoutingKit",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Set",
+                  "printedName": "Swift.Set<RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationOption",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                      "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                    }
+                  ],
+                  "usr": "s:Sh"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvg",
+              "mangledName": "$s10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvg",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Set",
+                  "printedName": "Swift.Set<RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationOption",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                      "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                    }
+                  ],
+                  "usr": "s:Sh"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvs",
+              "mangledName": "$s10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvs",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvM",
+              "mangledName": "$s10RoutingKit10TrieRouterC7optionsShyAC19ConfigurationOptionOyx_GGvM",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "root",
+          "printedName": "root",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Node",
+              "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit10TrieRouterC4root33_E797F3BFDE39E6472A1AFA63D7602CD4LLAC4NodeCyx_Gvp",
+          "mangledName": "$s10RoutingKit10TrieRouterC4root33_E797F3BFDE39E6472A1AFA63D7602CD4LLAC4NodeCyx_Gvp",
+          "moduleName": "RoutingKit",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(_:options:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "TrieRouter",
+              "printedName": "RoutingKit.TrieRouter<τ_0_0>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:10RoutingKit10TrieRouterC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Metatype",
+              "printedName": "τ_0_0.Type",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "hasDefaultArg": true
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Set",
+              "printedName": "Swift.Set<RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ConfigurationOption",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                  "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                }
+              ],
+              "hasDefaultArg": true,
+              "usr": "s:Sh"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:10RoutingKit10TrieRouterC_7optionsACyxGxm_ShyAC19ConfigurationOptionOyx_GGtcfc",
+          "mangledName": "$s10RoutingKit10TrieRouterC_7optionsACyxGxm_ShyAC19ConfigurationOptionOyx_GGtcfc",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "register",
+          "printedName": "register(_:at:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_0_0"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RoutingKit.PathComponent]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10TrieRouterC8register_2atyx_SayAA13PathComponentOGtF",
+          "mangledName": "$s10RoutingKit10TrieRouterC8register_2atyx_SayAA13PathComponentOGtF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "route",
+          "printedName": "route(path:parameters:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "τ_0_0?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ],
+              "usr": "s:Sq"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.String]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "usr": "s:Sa"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Parameters",
+              "printedName": "RoutingKit.Parameters",
+              "paramValueOwnership": "InOut",
+              "usr": "s:10RoutingKit10ParametersV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:10RoutingKit10TrieRouterC5route4path10parametersxSgSaySSG_AA10ParametersVztF",
+          "mangledName": "$s10RoutingKit10TrieRouterC5route4path10parametersxSgSaySSG_AA10ParametersVztF",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "description",
+          "printedName": "description",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:10RoutingKit10TrieRouterC11descriptionSSvp",
+          "mangledName": "$s10RoutingKit10TrieRouterC11descriptionSSvp",
+          "moduleName": "RoutingKit",
+          "declAttributes": [
+            "Final"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:10RoutingKit10TrieRouterC11descriptionSSvg",
+              "mangledName": "$s10RoutingKit10TrieRouterC11descriptionSSvg",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Node",
+          "printedName": "Node",
+          "children": [
+            {
+              "kind": "TypeDecl",
+              "name": "Wildcard",
+              "printedName": "Wildcard",
+              "children": [
+                {
+                  "kind": "Var",
+                  "name": "parameter",
+                  "printedName": "parameter",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "Swift.String?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Var",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC9parameterSSSgvp",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC9parameterSSSgvp",
+                  "moduleName": "RoutingKit",
+                  "declAttributes": [
+                    "HasInitialValue",
+                    "Final",
+                    "SetterAccess",
+                    "HasStorage"
+                  ],
+                  "fixedbinaryorder": 0,
+                  "hasStorage": true,
+                  "accessors": [
+                    {
+                      "kind": "Accessor",
+                      "name": "Get",
+                      "printedName": "Get()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Optional",
+                          "printedName": "Swift.String?",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "String",
+                              "printedName": "Swift.String",
+                              "usr": "s:SS"
+                            }
+                          ],
+                          "usr": "s:Sq"
+                        }
+                      ],
+                      "declKind": "Accessor",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC9parameterSSSgvg",
+                      "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC9parameterSSSgvg",
+                      "moduleName": "RoutingKit",
+                      "genericSig": "<τ_0_0>",
+                      "sugared_genericSig": "<Output>",
+                      "implicit": true,
+                      "declAttributes": [
+                        "Transparent",
+                        "Final"
+                      ],
+                      "accessorKind": "get"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Var",
+                  "name": "explicitlyIncludesAnything",
+                  "printedName": "explicitlyIncludesAnything",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "declKind": "Var",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC26explicitlyIncludesAnythingSbvp",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC26explicitlyIncludesAnythingSbvp",
+                  "moduleName": "RoutingKit",
+                  "declAttributes": [
+                    "HasInitialValue",
+                    "Final",
+                    "SetterAccess",
+                    "HasStorage"
+                  ],
+                  "fixedbinaryorder": 1,
+                  "hasStorage": true,
+                  "accessors": [
+                    {
+                      "kind": "Accessor",
+                      "name": "Get",
+                      "printedName": "Get()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Bool",
+                          "printedName": "Swift.Bool",
+                          "usr": "s:Sb"
+                        }
+                      ],
+                      "declKind": "Accessor",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC26explicitlyIncludesAnythingSbvg",
+                      "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC26explicitlyIncludesAnythingSbvg",
+                      "moduleName": "RoutingKit",
+                      "genericSig": "<τ_0_0>",
+                      "sugared_genericSig": "<Output>",
+                      "implicit": true,
+                      "declAttributes": [
+                        "Transparent",
+                        "Final"
+                      ],
+                      "accessorKind": "get"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Var",
+                  "name": "node",
+                  "printedName": "node",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Node",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                    }
+                  ],
+                  "declKind": "Var",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC4nodeAEyx_Gvp",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC4nodeAEyx_Gvp",
+                  "moduleName": "RoutingKit",
+                  "declAttributes": [
+                    "Final",
+                    "HasStorage"
+                  ],
+                  "fixedbinaryorder": 2,
+                  "isLet": true,
+                  "hasStorage": true,
+                  "accessors": [
+                    {
+                      "kind": "Accessor",
+                      "name": "Get",
+                      "printedName": "Get()",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Node",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                        }
+                      ],
+                      "declKind": "Accessor",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC4nodeAEyx_Gvg",
+                      "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC4nodeAEyx_Gvg",
+                      "moduleName": "RoutingKit",
+                      "genericSig": "<τ_0_0>",
+                      "sugared_genericSig": "<Output>",
+                      "implicit": true,
+                      "declAttributes": [
+                        "Transparent",
+                        "Final"
+                      ],
+                      "accessorKind": "get"
+                    }
+                  ]
+                },
+                {
+                  "kind": "Function",
+                  "name": "anything",
+                  "printedName": "anything(_:)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Wildcard",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Node",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC8anythingyAGyx__GAEyx_GFZ",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC8anythingyAGyx__GAEyx_GFZ",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "static": true,
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                },
+                {
+                  "kind": "Function",
+                  "name": "parameter",
+                  "printedName": "parameter(_:named:)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Wildcard",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Node",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC9parameter_5namedAGyx__GAEyx_G_SStFZ",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC9parameter_5namedAGyx__GAEyx_G_SStFZ",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "static": true,
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                },
+                {
+                  "kind": "Function",
+                  "name": "setParameterName",
+                  "printedName": "setParameterName(_:)",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC16setParameterNameyySSF",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC16setParameterNameyySSF",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                },
+                {
+                  "kind": "Function",
+                  "name": "explicitlyIncludeAnything",
+                  "printedName": "explicitlyIncludeAnything()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Func",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC25explicitlyIncludeAnythingyyF",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC25explicitlyIncludeAnythingyyF",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "funcSelfKind": "NonMutating"
+                }
+              ],
+              "declKind": "Class",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8WildcardC",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "declAttributes": [
+                "Final"
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "constants",
+              "printedName": "constants",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Swift.String : RoutingKit.TrieRouter<τ_0_0>.Node]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Node",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "Final",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : RoutingKit.TrieRouter<τ_0_0>.Node]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Node",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Dictionary",
+                      "printedName": "[Swift.String : RoutingKit.TrieRouter<τ_0_0>.Node]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Node",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                        }
+                      ],
+                      "usr": "s:SD"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvs",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvs",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvM",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC9constantsSDySSAEyx_GGvM",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "wildcard",
+              "printedName": "wildcard",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Wildcard",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "HasInitialValue",
+                "Final",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Wildcard",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Wildcard",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node.Wildcard",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC8WildcardC"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvs",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvs",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvM",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8wildcardAE8WildcardCyx__GSgvM",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "catchall",
+              "printedName": "catchall",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Node",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                      "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "HasInitialValue",
+                "Final",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 2,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Node",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Node",
+                          "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                          "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvs",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvs",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvM",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC8catchallAEyx_GSgvM",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "output",
+              "printedName": "output",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC6outputxSgvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC6outputxSgvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "HasInitialValue",
+                "Final",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 3,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "τ_0_0?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC6outputxSgvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC6outputxSgvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Optional",
+                      "printedName": "τ_0_0?",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "GenericTypeParam",
+                          "printedName": "τ_0_0"
+                        }
+                      ],
+                      "usr": "s:Sq"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC6outputxSgvs",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC6outputxSgvs",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC6outputxSgvM",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC6outputxSgvM",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent",
+                    "Final"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(output:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Node",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "τ_0_0?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "GenericTypeParam",
+                      "printedName": "τ_0_0"
+                    }
+                  ],
+                  "hasDefaultArg": true,
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC6outputAEyx_GxSg_tcfc",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC6outputAEyx_GxSg_tcfc",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Function",
+              "name": "buildOrFetchChild",
+              "printedName": "buildOrFetchChild(for:options:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Node",
+                  "printedName": "RoutingKit.TrieRouter<τ_0_0>.Node",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Set",
+                  "printedName": "Swift.Set<RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ConfigurationOption",
+                      "printedName": "RoutingKit.TrieRouter<τ_0_0>.ConfigurationOption",
+                      "usr": "s:10RoutingKit10TrieRouterC19ConfigurationOptionO"
+                    }
+                  ],
+                  "usr": "s:Sh"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC17buildOrFetchChild3for7optionsAEyx_GAA13PathComponentO_ShyAC19ConfigurationOptionOyx_GGtF",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC17buildOrFetchChild3for7optionsAEyx_GAA13PathComponentO_ShyAC19ConfigurationOptionOyx_GGtF",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0>",
+              "sugared_genericSig": "<Output>",
+              "declAttributes": [
+                "Final"
+              ],
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC11descriptionSSvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC11descriptionSSvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC11descriptionSSvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC11descriptionSSvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "subpathDescriptions",
+              "printedName": "subpathDescriptions",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.String]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:10RoutingKit10TrieRouterC4NodeC19subpathDescriptionsSaySSGvp",
+              "mangledName": "$s10RoutingKit10TrieRouterC4NodeC19subpathDescriptionsSaySSGvp",
+              "moduleName": "RoutingKit",
+              "declAttributes": [
+                "Final"
+              ],
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Array",
+                      "printedName": "[Swift.String]",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "String",
+                          "printedName": "Swift.String",
+                          "usr": "s:SS"
+                        }
+                      ],
+                      "usr": "s:Sa"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:10RoutingKit10TrieRouterC4NodeC19subpathDescriptionsSaySSGvg",
+                  "mangledName": "$s10RoutingKit10TrieRouterC4NodeC19subpathDescriptionsSaySSGvg",
+                  "moduleName": "RoutingKit",
+                  "genericSig": "<τ_0_0>",
+                  "sugared_genericSig": "<Output>",
+                  "declAttributes": [
+                    "Final"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Class",
+          "usr": "s:10RoutingKit10TrieRouterC4NodeC",
+          "mangledName": "$s10RoutingKit10TrieRouterC4NodeC",
+          "moduleName": "RoutingKit",
+          "genericSig": "<τ_0_0>",
+          "sugared_genericSig": "<Output>",
+          "declAttributes": [
+            "Final"
+          ],
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:10RoutingKit10TrieRouterC",
+      "mangledName": "$s10RoutingKit10TrieRouterC",
+      "moduleName": "RoutingKit",
+      "genericSig": "<τ_0_0>",
+      "sugared_genericSig": "<Output>",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Router",
+          "printedName": "Router",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Output",
+              "printedName": "Output",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "GenericTypeParam",
+                  "printedName": "τ_0_0"
+                }
+              ]
+            }
+          ],
+          "usr": "s:10RoutingKit6RouterP",
+          "mangledName": "$s10RoutingKit6RouterP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "String",
+      "printedName": "String",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "pathComponents",
+          "printedName": "pathComponents",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[RoutingKit.PathComponent]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PathComponent",
+                  "printedName": "RoutingKit.PathComponent",
+                  "usr": "s:10RoutingKit13PathComponentO"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:SS10RoutingKitE14pathComponentsSayAA13PathComponentOGvp",
+          "mangledName": "$sSS10RoutingKitE14pathComponentsSayAA13PathComponentOGvp",
+          "moduleName": "RoutingKit",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[RoutingKit.PathComponent]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "PathComponent",
+                      "printedName": "RoutingKit.PathComponent",
+                      "usr": "s:10RoutingKit13PathComponentO"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:SS10RoutingKitE14pathComponentsSayAA13PathComponentOGvg",
+              "mangledName": "$sSS10RoutingKitE14pathComponentsSayAA13PathComponentOGvg",
+              "moduleName": "RoutingKit",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "s:SS",
+      "mangledName": "$sSS",
+      "moduleName": "Swift",
+      "declAttributes": [
+        "Frozen"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Decodable",
+          "printedName": "Decodable",
+          "usr": "s:Se",
+          "mangledName": "$sSe"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Encodable",
+          "printedName": "Encodable",
+          "usr": "s:SE",
+          "mangledName": "$sSE"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasContiguousBytes",
+          "printedName": "_HasContiguousBytes",
+          "usr": "s:s19_HasContiguousBytesP",
+          "mangledName": "$ss19_HasContiguousBytesP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomReflectable",
+          "printedName": "CustomReflectable",
+          "usr": "s:s17CustomReflectableP",
+          "mangledName": "$ss17CustomReflectableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_CustomPlaygroundQuickLookable",
+          "printedName": "_CustomPlaygroundQuickLookable",
+          "usr": "s:s30_CustomPlaygroundQuickLookableP",
+          "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStream",
+          "printedName": "TextOutputStream",
+          "usr": "s:s16TextOutputStreamP",
+          "mangledName": "$ss16TextOutputStreamP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStreamable",
+          "printedName": "TextOutputStreamable",
+          "usr": "s:s20TextOutputStreamableP",
+          "mangledName": "$ss20TextOutputStreamableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sendable",
+          "printedName": "Sendable",
+          "usr": "s:s8SendableP",
+          "mangledName": "$ss8SendableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
+          "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
+          "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
+          "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ExpressibleByBuiltinStringLiteral",
+          "printedName": "_ExpressibleByBuiltinStringLiteral",
+          "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
+          "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringLiteral",
+          "printedName": "ExpressibleByStringLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringLiteralType",
+              "printedName": "StringLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s26ExpressibleByStringLiteralP",
+          "mangledName": "$ss26ExpressibleByStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "ExtendedGraphemeClusterLiteralType",
+              "printedName": "ExtendedGraphemeClusterLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByUnicodeScalarLiteral",
+          "printedName": "ExpressibleByUnicodeScalarLiteral",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarLiteralType",
+              "printedName": "UnicodeScalarLiteralType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+          "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Index",
+              "printedName": "Index",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Index",
+                  "printedName": "Swift.String.Index",
+                  "usr": "s:SS5IndexV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Indices",
+              "printedName": "Indices",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultIndices",
+                  "printedName": "Swift.DefaultIndices<Swift.String>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:SI"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "Element",
+              "printedName": "Element",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Character",
+                  "printedName": "Swift.Character",
+                  "usr": "s:SJ"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "Iterator",
+              "printedName": "Iterator",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Iterator",
+                  "printedName": "Swift.String.Iterator",
+                  "usr": "s:SS8IteratorV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "StringProtocol",
+          "printedName": "StringProtocol",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "UTF8View",
+              "printedName": "UTF8View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF8View",
+                  "printedName": "Swift.String.UTF8View",
+                  "usr": "s:SS8UTF8ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UTF16View",
+              "printedName": "UTF16View",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UTF16View",
+                  "printedName": "Swift.String.UTF16View",
+                  "usr": "s:SS9UTF16ViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "UnicodeScalarView",
+              "printedName": "UnicodeScalarView",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UnicodeScalarView",
+                  "printedName": "Swift.String.UnicodeScalarView",
+                  "usr": "s:SS17UnicodeScalarViewV"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sy",
+          "mangledName": "$sSy"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringInterpolation",
+          "printedName": "ExpressibleByStringInterpolation",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "StringInterpolation",
+              "printedName": "StringInterpolation",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DefaultStringInterpolation",
+                  "printedName": "Swift.DefaultStringInterpolation",
+                  "usr": "s:s26DefaultStringInterpolationV"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s32ExpressibleByStringInterpolationP",
+          "mangledName": "$ss32ExpressibleByStringInterpolationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RangeReplaceableCollection",
+          "printedName": "RangeReplaceableCollection",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "SubSequence",
+              "printedName": "SubSequence",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Substring",
+                  "printedName": "Swift.Substring",
+                  "usr": "s:Ss"
+                }
+              ]
+            }
+          ],
+          "usr": "s:Sm",
+          "mangledName": "$sSm"
+        },
+        {
+          "kind": "Conformance",
+          "name": "MirrorPath",
+          "printedName": "MirrorPath",
+          "usr": "s:s10MirrorPathP",
+          "mangledName": "$ss10MirrorPathP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSString",
+                  "printedName": "Foundation.NSString",
+                  "usr": "c:objc(cs)NSString"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Sequence",
+      "printedName": "Sequence",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "string",
+          "printedName": "string",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "String",
+              "printedName": "Swift.String",
+              "usr": "s:SS"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:ST10RoutingKitAA13PathComponentO7ElementRtzrlE6stringSSvp",
+          "mangledName": "$sST10RoutingKitAA13PathComponentO7ElementRtzrlE6stringSSvp",
+          "moduleName": "RoutingKit",
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:ST10RoutingKitAA13PathComponentO7ElementRtzrlE6stringSSvg",
+              "mangledName": "$sST10RoutingKitAA13PathComponentO7ElementRtzrlE6stringSSvg",
+              "moduleName": "RoutingKit",
+              "genericSig": "<τ_0_0 where τ_0_0 : Swift.Sequence, τ_0_0.Element == RoutingKit.PathComponent>",
+              "sugared_genericSig": "<Self where Self : Swift.Sequence, Self.Element == RoutingKit.PathComponent>",
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:ST",
+      "mangledName": "$sST",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0.Element == τ_0_0.Iterator.Element, τ_0_0.Iterator : Swift.IteratorProtocol>",
+      "sugared_genericSig": "<Self.Element == Self.Iterator.Element, Self.Iterator : Swift.IteratorProtocol>",
+      "isExternal": true
+    }
+  ],
+  "json_format_version": 6
+}

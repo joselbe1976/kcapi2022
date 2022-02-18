@@ -1,0 +1,4 @@
+module RedisTypes {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/RedisTypes.build/RedisTypes-Swift.h"
+    requires objc
+}

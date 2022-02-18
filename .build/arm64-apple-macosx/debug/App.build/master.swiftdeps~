@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "48a32089a12292c7b015f1a8bdaabeebbb35e8d522f508a6496ecc6d4eb0e152"
+build_start_time: [1645219375, 416865825]
+build_end_time: [1645219386, 552969932]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Controllers/BootcampsController.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Controllers/DevelopersController.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Controllers/HerosController.swift": [1645216697, 648202419]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Controllers/LoginController.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Controllers/RegisterController.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Migrations/Migration_v1.swift": [1645216646, 884675025]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/Bootcamps.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/Developers.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/DevelopersHeros.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/HeroTransformations.swift": [1645216646, 872117519]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/Heros.swift": [1645216334, 338252305]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/HerosLocations.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/PayloadApp.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/Models/UsersApp.swift": [1639516092, 0]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/configure.swift": [1645218359, 911832571]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/App/routes.swift": [1639516092, 0]

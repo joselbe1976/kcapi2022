@@ -8,7 +8,7 @@ public func configure(_ app: Application) throws {
     // uncomment to serve files from /Public folder
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
 
-   // app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
+  //  app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
  
     //PostGree
     
@@ -36,8 +36,7 @@ public func configure(_ app: Application) throws {
     
     // Aqui datos por defecto
     app.migrations.add(Create_Data_v1()) //creamos los bootcamps
-    app.migrations.add(Create_Data_Heros_v1()) // cramos los heroes
-    app.migrations.add(Create_Data_Transformations_v1()) //creamos las transformaciones de los Heroes
+    app.migrations.add(Create_Data_Heros_v1()) // cramos los heroes Dragon Ball
     
     //encriptacion del sistema
     app.passwords.use(.bcrypt)

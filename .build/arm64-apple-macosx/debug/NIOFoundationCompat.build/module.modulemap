@@ -1,0 +1,4 @@
+module NIOFoundationCompat {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOFoundationCompat.build/NIOFoundationCompat-Swift.h"
+    requires objc
+}

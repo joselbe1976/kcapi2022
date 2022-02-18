@@ -1,0 +1,4 @@
+module Vapor {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Vapor.build/Vapor-Swift.h"
+    requires objc
+}

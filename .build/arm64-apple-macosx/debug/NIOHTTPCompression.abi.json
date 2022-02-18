@@ -1,0 +1,4339 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NIOCompression",
+      "printedName": "NIOCompression",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "Algorithm",
+          "printedName": "Algorithm",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "algorithm",
+              "printedName": "algorithm",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "AlgorithmEnum",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm.AlgorithmEnum",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV0C4Enum33_94B5B36EE9EEDF409F4E46BC3F1721A2LLO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV9algorithm33_94B5B36EE9EEDF409F4E46BC3F1721A2LLAE0C4EnumAGLLOvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV9algorithm33_94B5B36EE9EEDF409F4E46BC3F1721A2LLAE0C4EnumAGLLOvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "isLet": true,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV11descriptionSSvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV11descriptionSSvp",
+              "moduleName": "NIOHTTPCompression",
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV11descriptionSSvg",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV11descriptionSSvg",
+                  "moduleName": "NIOHTTPCompression",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "gzip",
+              "printedName": "gzip",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV4gzipAEvpZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV4gzipAEvpZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Algorithm",
+                      "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                      "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV4gzipAEvgZ",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV4gzipAEvgZ",
+                  "moduleName": "NIOHTTPCompression",
+                  "static": true,
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "deflate",
+              "printedName": "deflate",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV7deflateAEvpZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV7deflateAEvpZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Algorithm",
+                      "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                      "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV7deflateAEvgZ",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV7deflateAEvgZ",
+                  "moduleName": "NIOHTTPCompression",
+                  "static": true,
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_struct_equals",
+              "printedName": "__derived_struct_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV23__derived_struct_equalsySbAE_AEtFZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV23__derived_struct_equalsySbAE_AEtFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV",
+          "mangledName": "$s18NIOHTTPCompression14NIOCompressionO9AlgorithmV",
+          "moduleName": "NIOHTTPCompression",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Error",
+          "printedName": "Error",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "error",
+              "printedName": "error",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ErrorEnum",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Error.ErrorEnum",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV0C4Enum33_94B5B36EE9EEDF409F4E46BC3F1721A2LLO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV5error33_94B5B36EE9EEDF409F4E46BC3F1721A2LLAE0C4EnumAGLLOvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV5error33_94B5B36EE9EEDF409F4E46BC3F1721A2LLAE0C4EnumAGLLOvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "isLet": true,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "description",
+              "printedName": "description",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV11descriptionSSvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV11descriptionSSvp",
+              "moduleName": "NIOHTTPCompression",
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV11descriptionSSvg",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV11descriptionSSvg",
+                  "moduleName": "NIOHTTPCompression",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "uncompressedWritesPending",
+              "printedName": "uncompressedWritesPending",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV25uncompressedWritesPendingAEvpZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV25uncompressedWritesPendingAEvpZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                      "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV25uncompressedWritesPendingAEvgZ",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV25uncompressedWritesPendingAEvgZ",
+                  "moduleName": "NIOHTTPCompression",
+                  "static": true,
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Var",
+              "name": "noDataToWrite",
+              "printedName": "noDataToWrite",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV13noDataToWriteAEvpZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV13noDataToWriteAEvpZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Error",
+                      "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                      "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV13noDataToWriteAEvgZ",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV13noDataToWriteAEvgZ",
+                  "moduleName": "NIOHTTPCompression",
+                  "static": true,
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_struct_equals",
+              "printedName": "__derived_struct_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Error",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Error",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV23__derived_struct_equalsySbAE_AEtFZ",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV23__derived_struct_equalsySbAE_AEtFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:18NIOHTTPCompression14NIOCompressionO5ErrorV",
+          "mangledName": "$s18NIOHTTPCompression14NIOCompressionO5ErrorV",
+          "moduleName": "NIOHTTPCompression",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "CustomStringConvertible",
+              "printedName": "CustomStringConvertible",
+              "usr": "s:s23CustomStringConvertibleP",
+              "mangledName": "$ss23CustomStringConvertibleP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Compressor",
+          "printedName": "Compressor",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "stream",
+              "printedName": "stream",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "z_stream_s",
+                  "printedName": "zlib.z_stream_s",
+                  "usr": "c:@S@z_stream_s"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV6stream33_94B5B36EE9EEDF409F4E46BC3F1721A2LLSo02z_D2_sVvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV6stream33_94B5B36EE9EEDF409F4E46BC3F1721A2LLSo02z_D2_sVvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "isActive",
+              "printedName": "isActive",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvp",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvp",
+              "moduleName": "NIOHTTPCompression",
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvg",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvg",
+                  "moduleName": "NIOHTTPCompression",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Set",
+                  "printedName": "Set()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Bool",
+                      "printedName": "Swift.Bool",
+                      "usr": "s:Sb"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvs",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvs",
+                  "moduleName": "NIOHTTPCompression",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "set"
+                },
+                {
+                  "kind": "Accessor",
+                  "name": "Modify",
+                  "printedName": "Modify()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvM",
+                  "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8isActiveSbvM",
+                  "moduleName": "NIOHTTPCompression",
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "_modify"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Compressor",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Compressor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorVAEycfc",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorVAEycfc",
+              "moduleName": "NIOHTTPCompression",
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Function",
+              "name": "initialize",
+              "printedName": "initialize(encoding:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV10initialize8encodingyAC9AlgorithmV_tF",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV10initialize8encodingyAC9AlgorithmV_tF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "Mutating"
+            },
+            {
+              "kind": "Function",
+              "name": "compress",
+              "printedName": "compress(inputBuffer:allocator:finalise:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ByteBuffer",
+                  "printedName": "NIOCore.ByteBuffer",
+                  "usr": "s:7NIOCore10ByteBufferV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ByteBuffer",
+                  "printedName": "NIOCore.ByteBuffer",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:7NIOCore10ByteBufferV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ByteBufferAllocator",
+                  "printedName": "NIOCore.ByteBufferAllocator",
+                  "usr": "s:7NIOCore19ByteBufferAllocatorV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8compress11inputBuffer9allocator8finalise7NIOCore04ByteF0VALz_AJ0jF9AllocatorVSbtF",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8compress11inputBuffer9allocator8finalise7NIOCore04ByteF0VALz_AJ0jF9AllocatorVSbtF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "Mutating"
+            },
+            {
+              "kind": "Function",
+              "name": "shutdown",
+              "printedName": "shutdown()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV8shutdownyyF",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV8shutdownyyF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "Mutating"
+            },
+            {
+              "kind": "Function",
+              "name": "shutdownIfActive",
+              "printedName": "shutdownIfActive()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV16shutdownIfActiveyyF",
+              "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV16shutdownIfActiveyyF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "Mutating"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV",
+          "mangledName": "$s18NIOHTTPCompression14NIOCompressionO10CompressorV",
+          "moduleName": "NIOHTTPCompression",
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:18NIOHTTPCompression14NIOCompressionO",
+      "mangledName": "$s18NIOHTTPCompression14NIOCompressionO",
+      "moduleName": "NIOHTTPCompression",
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NIOHTTPDecompression",
+      "printedName": "NIOHTTPDecompression",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "DecompressionLimit",
+          "printedName": "DecompressionLimit",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "limit",
+              "printedName": "limit",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Limit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit.Limit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV0D033_13CCFAD9BB832775A21C9E980F499F17LLO"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV5limit33_13CCFAD9BB832775A21C9E980F499F17LLAE0D0AGLLOvp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV5limit33_13CCFAD9BB832775A21C9E980F499F17LLAE0D0AGLLOvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "none",
+              "printedName": "none",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionLimit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4noneAEvpZ",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4noneAEvpZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "isLet": true,
+              "hasStorage": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DecompressionLimit",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4noneAEvgZ",
+                  "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4noneAEvgZ",
+                  "moduleName": "NIOHTTPCompression",
+                  "static": true,
+                  "implicit": true,
+                  "declAttributes": [
+                    "Transparent"
+                  ],
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Function",
+              "name": "size",
+              "printedName": "size(_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionLimit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4sizeyAESiFZ",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV4sizeyAESiFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "ratio",
+              "printedName": "ratio(_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionLimit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV5ratioyAESiFZ",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV5ratioyAESiFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "exceeded",
+              "printedName": "exceeded(compressed:decompressed:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV8exceeded10compressed12decompressedSbSi_SitF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV8exceeded10compressed12decompressedSbSi_SitF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV",
+          "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV",
+          "moduleName": "NIOHTTPCompression"
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "DecompressionError",
+          "printedName": "DecompressionError",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "limit",
+              "printedName": "limit",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type) -> NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "DecompressionError",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DecompressionError",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO5limityA2EmF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO5limityA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "inflationError",
+              "printedName": "inflationError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type) -> (Swift.Int) -> NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.Int) -> NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DecompressionError",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DecompressionError",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO09inflationD0yAESicAEmF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO09inflationD0yAESicAEmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "initializationError",
+              "printedName": "initializationError",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type) -> (Swift.Int) -> NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(Swift.Int) -> NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DecompressionError",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Int",
+                          "printedName": "Swift.Int",
+                          "usr": "s:Si"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "DecompressionError",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO014initializationD0yAESicAEmF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO014initializationD0yAESicAEmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 2
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionError",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionError",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionError",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO",
+          "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionErrorO",
+          "moduleName": "NIOHTTPCompression",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "CompressionAlgorithm",
+          "printedName": "CompressionAlgorithm",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "gzip",
+              "printedName": "gzip",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm.Type) -> NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionAlgorithm",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CompressionAlgorithm",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO4gzipyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO4gzipyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "deflate",
+              "printedName": "deflate",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm.Type) -> NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionAlgorithm",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CompressionAlgorithm",
+                          "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO7deflateyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO7deflateyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(header:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionAlgorithm",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Swift.String?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6headerAESgSSSg_tcfc",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6headerAESgSSSg_tcfc",
+              "moduleName": "NIOHTTPCompression",
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "window",
+              "printedName": "window",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int32",
+                  "printedName": "Swift.Int32",
+                  "usr": "s:s5Int32V"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6windows5Int32Vvp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6windows5Int32Vvp",
+              "moduleName": "NIOHTTPCompression",
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int32",
+                      "printedName": "Swift.Int32",
+                      "usr": "s:s5Int32V"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6windows5Int32Vvg",
+                  "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO6windows5Int32Vvg",
+                  "moduleName": "NIOHTTPCompression",
+                  "accessorKind": "get"
+                }
+              ]
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(rawValue:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionAlgorithm",
+                      "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueAESgSS_tcfc",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueAESgSS_tcfc",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Var",
+              "name": "rawValue",
+              "printedName": "rawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueSSvp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueSSvp",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueSSvg",
+                  "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO8rawValueSSvg",
+                  "moduleName": "NIOHTTPCompression",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO",
+          "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO",
+          "moduleName": "NIOHTTPCompression",
+          "enumRawTypeName": "String",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "RawRepresentable",
+              "printedName": "RawRepresentable",
+              "children": [
+                {
+                  "kind": "TypeWitness",
+                  "name": "RawValue",
+                  "printedName": "RawValue",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "String",
+                      "printedName": "Swift.String",
+                      "usr": "s:SS"
+                    }
+                  ]
+                }
+              ],
+              "usr": "s:SY",
+              "mangledName": "$sSY"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "TypeDecl",
+          "name": "Decompressor",
+          "printedName": "Decompressor",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "limit",
+              "printedName": "limit",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionLimit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV5limit33_13CCFAD9BB832775A21C9E980F499F17LLAC18DecompressionLimitVvp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV5limit33_13CCFAD9BB832775A21C9E980F499F17LLAC18DecompressionLimitVvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 0,
+              "isLet": true,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "stream",
+              "printedName": "stream",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "z_stream_s",
+                  "printedName": "zlib.z_stream_s",
+                  "usr": "c:@S@z_stream_s"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV6stream33_13CCFAD9BB832775A21C9E980F499F17LLSo02z_D2_sVvp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV6stream33_13CCFAD9BB832775A21C9E980F499F17LLSo02z_D2_sVvp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 1,
+              "hasStorage": true
+            },
+            {
+              "kind": "Var",
+              "name": "inflated",
+              "printedName": "inflated",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV8inflated33_13CCFAD9BB832775A21C9E980F499F17LLSivp",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV8inflated33_13CCFAD9BB832775A21C9E980F499F17LLSivp",
+              "moduleName": "NIOHTTPCompression",
+              "isInternal": true,
+              "declAttributes": [
+                "HasInitialValue",
+                "HasStorage"
+              ],
+              "fixedbinaryorder": 2,
+              "hasStorage": true
+            },
+            {
+              "kind": "Constructor",
+              "name": "init",
+              "printedName": "init(limit:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Decompressor",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.Decompressor",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "DecompressionLimit",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+                }
+              ],
+              "declKind": "Constructor",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV5limitAeC18DecompressionLimitV_tcfc",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV5limitAeC18DecompressionLimitV_tcfc",
+              "moduleName": "NIOHTTPCompression",
+              "init_kind": "Designated"
+            },
+            {
+              "kind": "Function",
+              "name": "decompress",
+              "printedName": "decompress(part:buffer:compressedLength:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ByteBuffer",
+                  "printedName": "NIOCore.ByteBuffer",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:7NIOCore10ByteBufferV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ByteBuffer",
+                  "printedName": "NIOCore.ByteBuffer",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:7NIOCore10ByteBufferV"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV10decompress4part6buffer16compressedLengthy7NIOCore10ByteBufferVz_ALzSitKF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV10decompress4part6buffer16compressedLengthy7NIOCore10ByteBufferVz_ALzSitKF",
+              "moduleName": "NIOHTTPCompression",
+              "throwing": true,
+              "funcSelfKind": "Mutating"
+            },
+            {
+              "kind": "Function",
+              "name": "initializeDecoder",
+              "printedName": "initializeDecoder(encoding:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CompressionAlgorithm",
+                  "printedName": "NIOHTTPCompression.NIOHTTPDecompression.CompressionAlgorithm",
+                  "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO20CompressionAlgorithmO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV17initializeDecoder8encodingyAC20CompressionAlgorithmO_tKF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV17initializeDecoder8encodingyAC20CompressionAlgorithmO_tKF",
+              "moduleName": "NIOHTTPCompression",
+              "throwing": true,
+              "funcSelfKind": "Mutating"
+            },
+            {
+              "kind": "Function",
+              "name": "deinitializeDecoder",
+              "printedName": "deinitializeDecoder()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV19deinitializeDecoderyyF",
+              "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV19deinitializeDecoderyyF",
+              "moduleName": "NIOHTTPCompression",
+              "funcSelfKind": "Mutating"
+            }
+          ],
+          "declKind": "Struct",
+          "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV",
+          "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV",
+          "moduleName": "NIOHTTPCompression"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO",
+      "mangledName": "$s18NIOHTTPCompression20NIOHTTPDecompressionO",
+      "moduleName": "NIOHTTPCompression",
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NIOHTTPRequestCompressor",
+      "printedName": "NIOHTTPRequestCompressor",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "State",
+          "printedName": "State",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "idle",
+              "printedName": "idle",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "State",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                      "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4idleyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4idleyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "head",
+              "printedName": "head",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type) -> (NIOHTTP1.HTTPRequestHead) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(NIOHTTP1.HTTPRequestHead) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "HTTPRequestHead",
+                          "printedName": "NIOHTTP1.HTTPRequestHead",
+                          "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4headyAE8NIOHTTP115HTTPRequestHeadVcAEmF",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4headyAE8NIOHTTP115HTTPRequestHeadVcAEmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Var",
+              "name": "body",
+              "printedName": "body",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type) -> (NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Tuple",
+                          "printedName": "(NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer)",
+                          "children": [
+                            {
+                              "kind": "TypeNominal",
+                              "name": "HTTPRequestHead",
+                              "printedName": "NIOHTTP1.HTTPRequestHead",
+                              "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                            },
+                            {
+                              "kind": "TypeNominal",
+                              "name": "ByteBuffer",
+                              "printedName": "NIOCore.ByteBuffer",
+                              "usr": "s:7NIOCore10ByteBufferV"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4bodyyAE8NIOHTTP115HTTPRequestHeadV_7NIOCore10ByteBufferVtcAEmF",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO4bodyyAE8NIOHTTP115HTTPRequestHeadV_7NIOCore10ByteBufferVtcAEmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 2
+            },
+            {
+              "kind": "Var",
+              "name": "partialBody",
+              "printedName": "partialBody",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type) -> (NIOCore.ByteBuffer) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "children": [
+                    {
+                      "kind": "TypeFunc",
+                      "name": "Function",
+                      "printedName": "(NIOCore.ByteBuffer) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        },
+                        {
+                          "kind": "TypeNominal",
+                          "name": "ByteBuffer",
+                          "printedName": "NIOCore.ByteBuffer",
+                          "usr": "s:7NIOCore10ByteBufferV"
+                        }
+                      ]
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO11partialBodyyAE7NIOCore10ByteBufferVcAEmF",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO11partialBodyyAE7NIOCore10ByteBufferVcAEmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 3
+            },
+            {
+              "kind": "Var",
+              "name": "end",
+              "printedName": "end",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type) -> NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "State",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                      "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "State",
+                          "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO3endyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO3endyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 4
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO",
+          "moduleName": "NIOHTTPCompression",
+          "isEnumExhaustive": true
+        },
+        {
+          "kind": "Var",
+          "name": "encoding",
+          "printedName": "encoding",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Algorithm",
+              "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvp",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvp",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvg",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvg",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Algorithm",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvs",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvs",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvM",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAA14NIOCompressionO9AlgorithmVvM",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "state",
+          "printedName": "state",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "State",
+              "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvp",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvp",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvg",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvg",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "State",
+                  "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor.State",
+                  "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5StateO"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvs",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvs",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvM",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5stateAC5StateOvM",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "compressor",
+          "printedName": "compressor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Compressor",
+              "printedName": "NIOHTTPCompression.NIOCompression.Compressor",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvp",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvp",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Compressor",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Compressor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvg",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvg",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Compressor",
+                  "printedName": "NIOHTTPCompression.NIOCompression.Compressor",
+                  "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvs",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0Vvs",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0VvM",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC10compressorAA14NIOCompressionO0C0VvM",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "pendingWritePromise",
+          "printedName": "pendingWritePromise",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "NIOCore.EventLoopPromise<()>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopPromise",
+                  "printedName": "NIOCore.EventLoopPromise<()>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "usr": "s:7NIOCore16EventLoopPromiseV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvp",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvp",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "NIOCore.EventLoopPromise<()>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "EventLoopPromise",
+                      "printedName": "NIOCore.EventLoopPromise<()>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ],
+                      "usr": "s:7NIOCore16EventLoopPromiseV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvg",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvg",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ImplicitlyUnwrappedOptional",
+                  "printedName": "NIOCore.EventLoopPromise<()>?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "EventLoopPromise",
+                      "printedName": "NIOCore.EventLoopPromise<()>",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "Void",
+                          "printedName": "()"
+                        }
+                      ],
+                      "usr": "s:7NIOCore16EventLoopPromiseV"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvs",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvs",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvM",
+              "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC19pendingWritePromise7NIOCore09EventLoopF0VyytGSgvM",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "declAttributes": [
+                "Transparent",
+                "Final"
+              ],
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(encoding:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NIOHTTPRequestCompressor",
+              "printedName": "NIOHTTPCompression.NIOHTTPRequestCompressor",
+              "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Algorithm",
+              "printedName": "NIOHTTPCompression.NIOCompression.Algorithm",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO9AlgorithmV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAcA14NIOCompressionO9AlgorithmV_tcfc",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC8encodingAcA14NIOCompressionO9AlgorithmV_tcfc",
+          "moduleName": "NIOHTTPCompression",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "handlerAdded",
+          "printedName": "handlerAdded(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC12handlerAdded7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC12handlerAdded7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handlerRemoved",
+          "printedName": "handlerRemoved(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC14handlerRemoved7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC14handlerRemoved7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(context:data:promise:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "NIOCore.EventLoopPromise<()>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopPromise",
+                  "printedName": "NIOCore.EventLoopPromise<()>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "usr": "s:7NIOCore16EventLoopPromiseV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "flush",
+          "printedName": "flush(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC5flush7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC5flush7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:18NIOHTTPCompression24NIOHTTPRequestCompressorC",
+      "mangledName": "$s18NIOHTTPCompression24NIOHTTPRequestCompressorC",
+      "moduleName": "NIOHTTPCompression",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "ChannelOutboundHandler",
+          "printedName": "ChannelOutboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundIn",
+              "printedName": "OutboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore22ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore22ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ChannelOutboundHandler",
+          "printedName": "_ChannelOutboundHandler",
+          "usr": "s:7NIOCore23_ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore23_ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_EmittingChannelHandler",
+          "printedName": "_EmittingChannelHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundOut",
+              "printedName": "OutboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore23_EmittingChannelHandlerP",
+          "mangledName": "$s7NIOCore23_EmittingChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelHandler",
+          "printedName": "ChannelHandler",
+          "usr": "s:7NIOCore14ChannelHandlerP",
+          "mangledName": "$s7NIOCore14ChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RemovableChannelHandler",
+          "printedName": "RemovableChannelHandler",
+          "usr": "s:7NIOCore23RemovableChannelHandlerP",
+          "mangledName": "$s7NIOCore23RemovableChannelHandlerP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NIOHTTPRequestDecompressor",
+      "printedName": "NIOHTTPRequestDecompressor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "decompressor",
+          "printedName": "decompressor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Decompressor",
+              "printedName": "NIOHTTPCompression.NIOHTTPDecompression.Decompressor",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC12decompressor33_0613D4B568ED795F62FE9821E3BB56F3LLAA20NIOHTTPDecompressionO0C0Vvp",
+          "mangledName": "$s18NIOHTTPCompression26NIOHTTPRequestDecompressorC12decompressor33_0613D4B568ED795F62FE9821E3BB56F3LLAA20NIOHTTPDecompressionO0C0Vvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "compression",
+          "printedName": "compression",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "NIOHTTPCompression.NIOHTTPRequestDecompressor.Compression?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Compression",
+                  "printedName": "NIOHTTPCompression.NIOHTTPRequestDecompressor.Compression",
+                  "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC11Compression33_0613D4B568ED795F62FE9821E3BB56F3LLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC11compression33_0613D4B568ED795F62FE9821E3BB56F3LLAC11CompressionAELLVSgvp",
+          "mangledName": "$s18NIOHTTPCompression26NIOHTTPRequestDecompressorC11compression33_0613D4B568ED795F62FE9821E3BB56F3LLAC11CompressionAELLVSgvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(limit:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NIOHTTPRequestDecompressor",
+              "printedName": "NIOHTTPCompression.NIOHTTPRequestDecompressor",
+              "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DecompressionLimit",
+              "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC5limitAcA20NIOHTTPDecompressionO18DecompressionLimitV_tcfc",
+          "mangledName": "$s18NIOHTTPCompression26NIOHTTPRequestDecompressorC5limitAcA20NIOHTTPDecompressionO18DecompressionLimitV_tcfc",
+          "moduleName": "NIOHTTPCompression",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "channelRead",
+          "printedName": "channelRead(context:data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "mangledName": "$s18NIOHTTPCompression26NIOHTTPRequestDecompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:18NIOHTTPCompression26NIOHTTPRequestDecompressorC",
+      "mangledName": "$s18NIOHTTPCompression26NIOHTTPRequestDecompressorC",
+      "moduleName": "NIOHTTPCompression",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "RemovableChannelHandler",
+          "printedName": "RemovableChannelHandler",
+          "usr": "s:7NIOCore23RemovableChannelHandlerP",
+          "mangledName": "$s7NIOCore23RemovableChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ChannelOutboundHandler",
+          "printedName": "_ChannelOutboundHandler",
+          "usr": "s:7NIOCore23_ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore23_ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelOutboundHandler",
+          "printedName": "ChannelOutboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundIn",
+              "printedName": "OutboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore22ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore22ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_EmittingChannelHandler",
+          "printedName": "_EmittingChannelHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundOut",
+              "printedName": "OutboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore23_EmittingChannelHandlerP",
+          "mangledName": "$s7NIOCore23_EmittingChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ChannelInboundHandler",
+          "printedName": "_ChannelInboundHandler",
+          "usr": "s:7NIOCore22_ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore22_ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelInboundHandler",
+          "printedName": "ChannelInboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "InboundIn",
+              "printedName": "InboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "InboundOut",
+              "printedName": "InboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore21ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore21ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelHandler",
+          "printedName": "ChannelHandler",
+          "usr": "s:7NIOCore14ChannelHandlerP",
+          "mangledName": "$s7NIOCore14ChannelHandlerP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "HTTPResponseCompressor",
+      "printedName": "HTTPResponseCompressor",
+      "children": [
+        {
+          "kind": "TypeDecl",
+          "name": "CompressionError",
+          "printedName": "CompressionError",
+          "children": [
+            {
+              "kind": "Var",
+              "name": "uncompressedWritesPending",
+              "printedName": "uncompressedWritesPending",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.HTTPResponseCompressor.CompressionError.Type) -> NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionError",
+                      "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                      "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CompressionError",
+                          "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO25uncompressedWritesPendingyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO25uncompressedWritesPendingyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 0
+            },
+            {
+              "kind": "Var",
+              "name": "noDataToWrite",
+              "printedName": "noDataToWrite",
+              "children": [
+                {
+                  "kind": "TypeFunc",
+                  "name": "Function",
+                  "printedName": "(NIOHTTPCompression.HTTPResponseCompressor.CompressionError.Type) -> NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "CompressionError",
+                      "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                      "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Metatype",
+                      "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError.Type",
+                      "children": [
+                        {
+                          "kind": "TypeNominal",
+                          "name": "CompressionError",
+                          "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "declKind": "EnumElement",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO13noDataToWriteyA2EmF",
+              "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO13noDataToWriteyA2EmF",
+              "moduleName": "NIOHTTPCompression",
+              "fixedbinaryorder": 1
+            },
+            {
+              "kind": "Function",
+              "name": "__derived_enum_equals",
+              "printedName": "__derived_enum_equals(_:_:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Bool",
+                  "printedName": "Swift.Bool",
+                  "usr": "s:Sb"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CompressionError",
+                  "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                  "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "CompressionError",
+                  "printedName": "NIOHTTPCompression.HTTPResponseCompressor.CompressionError",
+                  "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO21__derived_enum_equalsySbAE_AEtFZ",
+              "moduleName": "NIOHTTPCompression",
+              "static": true,
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Function",
+              "name": "hash",
+              "printedName": "hash(into:)",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Hasher",
+                  "printedName": "Swift.Hasher",
+                  "paramValueOwnership": "InOut",
+                  "usr": "s:s6HasherV"
+                }
+              ],
+              "declKind": "Func",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO4hash4intoys6HasherVz_tF",
+              "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO4hash4intoys6HasherVz_tF",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "funcSelfKind": "NonMutating"
+            },
+            {
+              "kind": "Var",
+              "name": "hashValue",
+              "printedName": "hashValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int",
+                  "printedName": "Swift.Int",
+                  "usr": "s:Si"
+                }
+              ],
+              "declKind": "Var",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO9hashValueSivp",
+              "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO9hashValueSivp",
+              "moduleName": "NIOHTTPCompression",
+              "implicit": true,
+              "accessors": [
+                {
+                  "kind": "Accessor",
+                  "name": "Get",
+                  "printedName": "Get()",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Int",
+                      "printedName": "Swift.Int",
+                      "usr": "s:Si"
+                    }
+                  ],
+                  "declKind": "Accessor",
+                  "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO9hashValueSivg",
+                  "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO9hashValueSivg",
+                  "moduleName": "NIOHTTPCompression",
+                  "implicit": true,
+                  "accessorKind": "get"
+                }
+              ]
+            }
+          ],
+          "declKind": "Enum",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC16CompressionErrorO",
+          "moduleName": "NIOHTTPCompression",
+          "isEnumExhaustive": true,
+          "conformances": [
+            {
+              "kind": "Conformance",
+              "name": "Hashable",
+              "printedName": "Hashable",
+              "usr": "s:SH",
+              "mangledName": "$sSH"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Error",
+              "printedName": "Error",
+              "usr": "s:s5ErrorP",
+              "mangledName": "$ss5ErrorP"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Equatable",
+              "printedName": "Equatable",
+              "usr": "s:SQ",
+              "mangledName": "$sSQ"
+            },
+            {
+              "kind": "Conformance",
+              "name": "Sendable",
+              "printedName": "Sendable",
+              "usr": "s:s8SendableP",
+              "mangledName": "$ss8SendableP"
+            }
+          ]
+        },
+        {
+          "kind": "Var",
+          "name": "compressor",
+          "printedName": "compressor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Compressor",
+              "printedName": "NIOHTTPCompression.NIOCompression.Compressor",
+              "usr": "s:18NIOHTTPCompression14NIOCompressionO10CompressorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC10compressor33_D5E027AB2F6B3D90C7C038C34D214F09LLAA14NIOCompressionO0C0Vvp",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC10compressor33_D5E027AB2F6B3D90C7C038C34D214F09LLAA14NIOCompressionO0C0Vvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "acceptQueue",
+          "printedName": "acceptQueue",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "CircularBuffer",
+              "printedName": "NIOCore.CircularBuffer<[Swift.Substring]>",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Array",
+                  "printedName": "[Swift.Substring]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Substring",
+                      "printedName": "Swift.Substring",
+                      "usr": "s:Ss"
+                    }
+                  ],
+                  "usr": "s:Sa"
+                }
+              ],
+              "usr": "s:7NIOCore14CircularBufferV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC11acceptQueue33_D5E027AB2F6B3D90C7C038C34D214F09LL7NIOCore14CircularBufferVySaySsGGvp",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC11acceptQueue33_D5E027AB2F6B3D90C7C038C34D214F09LL7NIOCore14CircularBufferVySaySsGGvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "pendingResponse",
+          "printedName": "pendingResponse",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "NIOHTTPCompression.PartialHTTPResponse?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "PartialHTTPResponse",
+                  "printedName": "NIOHTTPCompression.PartialHTTPResponse",
+                  "usr": "s:18NIOHTTPCompression19PartialHTTPResponse33_D5E027AB2F6B3D90C7C038C34D214F09LLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC15pendingResponse33_D5E027AB2F6B3D90C7C038C34D214F09LLAA07PartialB0AELLVSgvp",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC15pendingResponse33_D5E027AB2F6B3D90C7C038C34D214F09LLAA07PartialB0AELLVSgvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 2,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "pendingWritePromise",
+          "printedName": "pendingWritePromise",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "ImplicitlyUnwrappedOptional",
+              "printedName": "NIOCore.EventLoopPromise<()>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopPromise",
+                  "printedName": "NIOCore.EventLoopPromise<()>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "usr": "s:7NIOCore16EventLoopPromiseV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC19pendingWritePromise33_D5E027AB2F6B3D90C7C038C34D214F09LL7NIOCore09EventLoopF0VyytGSgvp",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC19pendingWritePromise33_D5E027AB2F6B3D90C7C038C34D214F09LL7NIOCore09EventLoopF0VyytGSgvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 3,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "initialByteBufferCapacity",
+          "printedName": "initialByteBufferCapacity",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC25initialByteBufferCapacity33_D5E027AB2F6B3D90C7C038C34D214F09LLSivp",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC25initialByteBufferCapacity33_D5E027AB2F6B3D90C7C038C34D214F09LLSivp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 4,
+          "isLet": true,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(initialByteBufferCapacity:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "HTTPResponseCompressor",
+              "printedName": "NIOHTTPCompression.HTTPResponseCompressor",
+              "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "hasDefaultArg": true,
+              "usr": "s:Si"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC25initialByteBufferCapacityACSi_tcfc",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC25initialByteBufferCapacityACSi_tcfc",
+          "moduleName": "NIOHTTPCompression",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "handlerAdded",
+          "printedName": "handlerAdded(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC12handlerAdded7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC12handlerAdded7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "handlerRemoved",
+          "printedName": "handlerRemoved(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC14handlerRemoved7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC14handlerRemoved7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "channelRead",
+          "printedName": "channelRead(context:data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(context:data:promise:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "NIOCore.EventLoopPromise<()>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopPromise",
+                  "printedName": "NIOCore.EventLoopPromise<()>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "usr": "s:7NIOCore16EventLoopPromiseV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "flush",
+          "printedName": "flush(context:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC5flush7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC5flush7contexty7NIOCore21ChannelHandlerContextC_tF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:18NIOHTTPCompression22HTTPResponseCompressorC",
+      "mangledName": "$s18NIOHTTPCompression22HTTPResponseCompressorC",
+      "moduleName": "NIOHTTPCompression",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_ChannelOutboundHandler",
+          "printedName": "_ChannelOutboundHandler",
+          "usr": "s:7NIOCore23_ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore23_ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ChannelInboundHandler",
+          "printedName": "_ChannelInboundHandler",
+          "usr": "s:7NIOCore22_ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore22_ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelHandler",
+          "printedName": "ChannelHandler",
+          "usr": "s:7NIOCore14ChannelHandlerP",
+          "mangledName": "$s7NIOCore14ChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelInboundHandler",
+          "printedName": "ChannelInboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "InboundIn",
+              "printedName": "InboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "InboundOut",
+              "printedName": "InboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore21ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore21ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_EmittingChannelHandler",
+          "printedName": "_EmittingChannelHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundOut",
+              "printedName": "OutboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore23_EmittingChannelHandlerP",
+          "mangledName": "$s7NIOCore23_EmittingChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelOutboundHandler",
+          "printedName": "ChannelOutboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundIn",
+              "printedName": "OutboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore22ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore22ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RemovableChannelHandler",
+          "printedName": "RemovableChannelHandler",
+          "usr": "s:7NIOCore23RemovableChannelHandlerP",
+          "mangledName": "$s7NIOCore23RemovableChannelHandlerP"
+        }
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "CNIOExtrasZlib",
+      "printedName": "CNIOExtrasZlib",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "NIOHTTP1",
+      "printedName": "NIOHTTP1",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIOHTTPCompression"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "NIOHTTPResponseDecompressor",
+      "printedName": "NIOHTTPResponseDecompressor",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "compression",
+          "printedName": "compression",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "NIOHTTPCompression.NIOHTTPResponseDecompressor.Compression?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Compression",
+                  "printedName": "NIOHTTPCompression.NIOHTTPResponseDecompressor.Compression",
+                  "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC11Compression33_52D0FFF9D27633F2222A83EBF9956191LLV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC11compression33_52D0FFF9D27633F2222A83EBF9956191LLAC11CompressionAELLVSgvp",
+          "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC11compression33_52D0FFF9D27633F2222A83EBF9956191LLAC11CompressionAELLVSgvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true
+        },
+        {
+          "kind": "Var",
+          "name": "decompressor",
+          "printedName": "decompressor",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Decompressor",
+              "printedName": "NIOHTTPCompression.NIOHTTPDecompression.Decompressor",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO12DecompressorV"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC12decompressor33_52D0FFF9D27633F2222A83EBF9956191LLAA20NIOHTTPDecompressionO0C0Vvp",
+          "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC12decompressor33_52D0FFF9D27633F2222A83EBF9956191LLAA20NIOHTTPDecompressionO0C0Vvp",
+          "moduleName": "NIOHTTPCompression",
+          "isInternal": true,
+          "declAttributes": [
+            "Final",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 1,
+          "hasStorage": true
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(limit:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "NIOHTTPResponseDecompressor",
+              "printedName": "NIOHTTPCompression.NIOHTTPResponseDecompressor",
+              "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "DecompressionLimit",
+              "printedName": "NIOHTTPCompression.NIOHTTPDecompression.DecompressionLimit",
+              "usr": "s:18NIOHTTPCompression20NIOHTTPDecompressionO18DecompressionLimitV"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC5limitAcA20NIOHTTPDecompressionO18DecompressionLimitV_tcfc",
+          "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC5limitAcA20NIOHTTPDecompressionO18DecompressionLimitV_tcfc",
+          "moduleName": "NIOHTTPCompression",
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "write",
+          "printedName": "write(context:data:promise:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "NIOCore.EventLoopPromise<()>?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "EventLoopPromise",
+                  "printedName": "NIOCore.EventLoopPromise<()>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Void",
+                      "printedName": "()"
+                    }
+                  ],
+                  "usr": "s:7NIOCore16EventLoopPromiseV"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC5write7context4data7promisey7NIOCore21ChannelHandlerContextC_AH6NIOAnyVAH16EventLoopPromiseVyytGSgtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "channelRead",
+          "printedName": "channelRead(context:data:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ChannelHandlerContext",
+              "printedName": "NIOCore.ChannelHandlerContext",
+              "usr": "s:7NIOCore21ChannelHandlerContextC"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NIOAny",
+              "printedName": "NIOCore.NIOAny",
+              "usr": "s:7NIOCore6NIOAnyV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC11channelRead7context4datay7NIOCore21ChannelHandlerContextC_AG6NIOAnyVtF",
+          "moduleName": "NIOHTTPCompression",
+          "declAttributes": [
+            "Final"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Class",
+      "usr": "s:18NIOHTTPCompression27NIOHTTPResponseDecompressorC",
+      "mangledName": "$s18NIOHTTPCompression27NIOHTTPResponseDecompressorC",
+      "moduleName": "NIOHTTPCompression",
+      "declAttributes": [
+        "Final"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_ChannelOutboundHandler",
+          "printedName": "_ChannelOutboundHandler",
+          "usr": "s:7NIOCore23_ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore23_ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_ChannelInboundHandler",
+          "printedName": "_ChannelInboundHandler",
+          "usr": "s:7NIOCore22_ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore22_ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelInboundHandler",
+          "printedName": "ChannelInboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "InboundIn",
+              "printedName": "InboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            },
+            {
+              "kind": "TypeWitness",
+              "name": "InboundOut",
+              "printedName": "InboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPResponseHead, NIOCore.ByteBuffer>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPResponseHead",
+                      "printedName": "NIOHTTP1.HTTPResponseHead",
+                      "usr": "s:8NIOHTTP116HTTPResponseHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ByteBuffer",
+                      "printedName": "NIOCore.ByteBuffer",
+                      "usr": "s:7NIOCore10ByteBufferV"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore21ChannelInboundHandlerP",
+          "mangledName": "$s7NIOCore21ChannelInboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_EmittingChannelHandler",
+          "printedName": "_EmittingChannelHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundOut",
+              "printedName": "OutboundOut",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore23_EmittingChannelHandlerP",
+          "mangledName": "$s7NIOCore23_EmittingChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelOutboundHandler",
+          "printedName": "ChannelOutboundHandler",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "OutboundIn",
+              "printedName": "OutboundIn",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "HTTPPart",
+                  "printedName": "NIOHTTP1.HTTPPart<NIOHTTP1.HTTPRequestHead, NIOCore.IOData>",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "HTTPRequestHead",
+                      "printedName": "NIOHTTP1.HTTPRequestHead",
+                      "usr": "s:8NIOHTTP115HTTPRequestHeadV"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "IOData",
+                      "printedName": "NIOCore.IOData",
+                      "usr": "s:7NIOCore6IODataO"
+                    }
+                  ],
+                  "usr": "s:8NIOHTTP18HTTPPartO"
+                }
+              ]
+            }
+          ],
+          "usr": "s:7NIOCore22ChannelOutboundHandlerP",
+          "mangledName": "$s7NIOCore22ChannelOutboundHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ChannelHandler",
+          "printedName": "ChannelHandler",
+          "usr": "s:7NIOCore14ChannelHandlerP",
+          "mangledName": "$s7NIOCore14ChannelHandlerP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RemovableChannelHandler",
+          "printedName": "RemovableChannelHandler",
+          "usr": "s:7NIOCore23RemovableChannelHandlerP",
+          "mangledName": "$s7NIOCore23RemovableChannelHandlerP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "z_stream_s",
+      "printedName": "z_stream_s",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "oneShotDeflate",
+          "printedName": "oneShotDeflate(from:to:flag:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ByteBuffer",
+              "printedName": "NIOCore.ByteBuffer",
+              "paramValueOwnership": "InOut",
+              "usr": "s:7NIOCore10ByteBufferV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ByteBuffer",
+              "printedName": "NIOCore.ByteBuffer",
+              "paramValueOwnership": "InOut",
+              "usr": "s:7NIOCore10ByteBufferV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Int32",
+              "printedName": "Swift.Int32",
+              "usr": "s:s5Int32V"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So10z_stream_sV18NIOHTTPCompressionE14oneShotDeflate4from2to4flagy7NIOCore10ByteBufferVz_AJzs5Int32VtF",
+          "mangledName": "$sSo10z_stream_sV18NIOHTTPCompressionE14oneShotDeflate4from2to4flagy7NIOCore10ByteBufferVz_AJzs5Int32VtF",
+          "moduleName": "NIOHTTPCompression",
+          "funcSelfKind": "Mutating"
+        },
+        {
+          "kind": "Function",
+          "name": "inflatePart",
+          "printedName": "inflatePart(input:output:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Int",
+              "printedName": "Swift.Int",
+              "usr": "s:Si"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ByteBuffer",
+              "printedName": "NIOCore.ByteBuffer",
+              "paramValueOwnership": "InOut",
+              "usr": "s:7NIOCore10ByteBufferV"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "ByteBuffer",
+              "printedName": "NIOCore.ByteBuffer",
+              "paramValueOwnership": "InOut",
+              "usr": "s:7NIOCore10ByteBufferV"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:So10z_stream_sV18NIOHTTPCompressionE11inflatePart5input6outputSi7NIOCore10ByteBufferVz_AIztKF",
+          "mangledName": "$sSo10z_stream_sV18NIOHTTPCompressionE11inflatePart5input6outputSi7NIOCore10ByteBufferVz_AIztKF",
+          "moduleName": "NIOHTTPCompression",
+          "throwing": true,
+          "funcSelfKind": "Mutating"
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "c:@S@z_stream_s",
+      "moduleName": "zlib",
+      "isExternal": true
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "StringProtocol",
+      "printedName": "StringProtocol",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "startsWithExactly",
+          "printedName": "startsWithExactly(_:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "GenericTypeParam",
+              "printedName": "τ_1_0"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:Sy18NIOHTTPCompressionE17startsWithExactlyySbqd__SyRd__lF",
+          "mangledName": "$sSy18NIOHTTPCompressionE17startsWithExactlyySbqd__SyRd__lF",
+          "moduleName": "NIOHTTPCompression",
+          "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : Swift.StringProtocol, τ_1_0 : Swift.StringProtocol>",
+          "sugared_genericSig": "<Self, S where Self : Swift.StringProtocol, S : Swift.StringProtocol>",
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Protocol",
+      "usr": "s:Sy",
+      "mangledName": "$sSy",
+      "moduleName": "Swift",
+      "genericSig": "<τ_0_0 : Swift.BidirectionalCollection, τ_0_0 : Swift.Comparable, τ_0_0 : Swift.ExpressibleByStringInterpolation, τ_0_0 : Swift.Hashable, τ_0_0 : Swift.LosslessStringConvertible, τ_0_0 : Swift.TextOutputStream, τ_0_0 : Swift.TextOutputStreamable, τ_0_0.Element == Swift.Character, τ_0_0.Index == Swift.String.Index, τ_0_0.StringInterpolation == Swift.DefaultStringInterpolation, τ_0_0.SubSequence : Swift.StringProtocol, τ_0_0.UTF16View : Swift.BidirectionalCollection, τ_0_0.UTF8View : Swift.Collection, τ_0_0.UnicodeScalarView : Swift.BidirectionalCollection, τ_0_0.UTF16View.Element == Swift.UInt16, τ_0_0.UTF16View.Index == Swift.String.Index, τ_0_0.UTF8View.Element == Swift.UInt8, τ_0_0.UTF8View.Index == Swift.String.Index, τ_0_0.UnicodeScalarView.Element == Swift.Unicode.Scalar, τ_0_0.UnicodeScalarView.Index == Swift.String.Index>",
+      "sugared_genericSig": "<Self : Swift.BidirectionalCollection, Self : Swift.Comparable, Self : Swift.ExpressibleByStringInterpolation, Self : Swift.Hashable, Self : Swift.LosslessStringConvertible, Self : Swift.TextOutputStream, Self : Swift.TextOutputStreamable, Self.Element == Swift.Character, Self.Index == Swift.String.Index, Self.StringInterpolation == Swift.DefaultStringInterpolation, Self.SubSequence : Swift.StringProtocol, Self.UTF16View : Swift.BidirectionalCollection, Self.UTF8View : Swift.Collection, Self.UnicodeScalarView : Swift.BidirectionalCollection, Self.UTF16View.Element == Swift.UInt16, Self.UTF16View.Index == Swift.String.Index, Self.UTF8View.Element == Swift.UInt8, Self.UTF8View.Index == Swift.String.Index, Self.UnicodeScalarView.Element == Swift.Unicode.Scalar, Self.UnicodeScalarView.Index == Swift.String.Index>",
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "BidirectionalCollection",
+          "printedName": "BidirectionalCollection",
+          "usr": "s:SK",
+          "mangledName": "$sSK"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Comparable",
+          "printedName": "Comparable",
+          "usr": "s:SL",
+          "mangledName": "$sSL"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringInterpolation",
+          "printedName": "ExpressibleByStringInterpolation",
+          "usr": "s:s32ExpressibleByStringInterpolationP",
+          "mangledName": "$ss32ExpressibleByStringInterpolationP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "LosslessStringConvertible",
+          "printedName": "LosslessStringConvertible",
+          "usr": "s:s25LosslessStringConvertibleP",
+          "mangledName": "$ss25LosslessStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStream",
+          "printedName": "TextOutputStream",
+          "usr": "s:s16TextOutputStreamP",
+          "mangledName": "$ss16TextOutputStreamP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "TextOutputStreamable",
+          "printedName": "TextOutputStreamable",
+          "usr": "s:s20TextOutputStreamableP",
+          "mangledName": "$ss20TextOutputStreamableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Collection",
+          "printedName": "Collection",
+          "usr": "s:Sl",
+          "mangledName": "$sSl"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByStringLiteral",
+          "printedName": "ExpressibleByStringLiteral",
+          "usr": "s:s26ExpressibleByStringLiteralP",
+          "mangledName": "$ss26ExpressibleByStringLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Sequence",
+          "printedName": "Sequence",
+          "usr": "s:ST",
+          "mangledName": "$sST"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
+          "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
+          "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "ExpressibleByUnicodeScalarLiteral",
+          "printedName": "ExpressibleByUnicodeScalarLiteral",
+          "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
+          "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}

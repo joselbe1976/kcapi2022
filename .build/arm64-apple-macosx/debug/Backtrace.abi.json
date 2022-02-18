@@ -1,0 +1,120 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Backtrace"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Backtrace"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Backtrace",
+      "printedName": "Backtrace",
+      "children": [
+        {
+          "kind": "Function",
+          "name": "install",
+          "printedName": "install()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9BacktraceAAO7installyyFZ",
+          "mangledName": "$s9BacktraceAAO7installyyFZ",
+          "moduleName": "Backtrace",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "install",
+          "printedName": "install(signals:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Array",
+              "printedName": "[Swift.Int32]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Int32",
+                  "printedName": "Swift.Int32",
+                  "usr": "s:s5Int32V"
+                }
+              ],
+              "usr": "s:Sa"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9BacktraceAAO7install7signalsySays5Int32VG_tFZ",
+          "mangledName": "$s9BacktraceAAO7install7signalsySays5Int32VG_tFZ",
+          "moduleName": "Backtrace",
+          "static": true,
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "print",
+          "printedName": "print()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:9BacktraceAAO5printyyFZ",
+          "mangledName": "$s9BacktraceAAO5printyyFZ",
+          "moduleName": "Backtrace",
+          "static": true,
+          "deprecated": true,
+          "declAttributes": [
+            "Available"
+          ],
+          "funcSelfKind": "NonMutating"
+        }
+      ],
+      "declKind": "Enum",
+      "usr": "s:9BacktraceAAO",
+      "mangledName": "$s9BacktraceAAO",
+      "moduleName": "Backtrace",
+      "isEnumExhaustive": true
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Backtrace"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Backtrace"
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,4 @@
+module SQLiteKit {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/SQLiteKit.build/SQLiteKit-Swift.h"
+    requires objc
+}

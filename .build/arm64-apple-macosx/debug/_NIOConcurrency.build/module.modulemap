@@ -1,0 +1,4 @@
+module _NIOConcurrency {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/_NIOConcurrency.build/_NIOConcurrency-Swift.h"
+    requires objc
+}

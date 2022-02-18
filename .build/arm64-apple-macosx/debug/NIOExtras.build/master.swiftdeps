@@ -1,0 +1,28 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "15fcf74aa6cc03d2bafa768baca10d71f32fc6a9a9b2d4ad62e52141a09b8ff8"
+build_start_time: [1645219361, 392675876]
+build_end_time: [1645219363, 325634002]
+inputs:
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift"
+  : [1645219335, 777585268]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift"
+  : [1645219335, 777696847]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift"
+  : [1645219335, 777801513]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift"
+  : [1645219335, 777897834]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": [1645219335, 777989864]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift"
+  : [1645219335, 778051614]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift"
+  : [1645219335, 778168678]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift"
+  : [1645219335, 778407096]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": [1645219335, 778495550]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOLengthFieldBitLength.swift"
+  : [1645219335, 778677463]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/PCAPRingBuffer.swift": [1645219335, 778768062]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": [1645219335, 778861045]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift"
+  : [1645219335, 778967380]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift": [1645219335, 779136896]

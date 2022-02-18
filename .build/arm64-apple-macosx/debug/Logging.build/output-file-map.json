@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/master.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Locks.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Locks.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/LogHandler.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/LogHandler.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Logging.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Logging.build/Logging.swiftdeps"
+  }
+}

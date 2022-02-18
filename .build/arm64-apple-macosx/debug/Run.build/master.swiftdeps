@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "a60cb1e8521b926306a0b45a4c3356b2509a6808eb5a45150515911170072dd1"
+build_start_time: [1645219498, 597548961]
+build_end_time: [1645219498, 867738962]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/Sources/Run/main.swift": [1639516092, 0]

@@ -1,0 +1,81 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "App",
+      "printedName": "App",
+      "declKind": "Import",
+      "moduleName": "Run"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "Run"
+    },
+    {
+      "kind": "Import",
+      "name": "Vapor",
+      "printedName": "Vapor",
+      "declKind": "Import",
+      "moduleName": "Run"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "Run"
+    },
+    {
+      "kind": "Var",
+      "name": "env",
+      "printedName": "env",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Environment",
+          "printedName": "Vapor.Environment",
+          "usr": "s:5Vapor11EnvironmentV"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:3Run3env5Vapor11EnvironmentVvp",
+      "mangledName": "$s3Run3env5Vapor11EnvironmentVvp",
+      "moduleName": "Run",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "hasStorage": true
+    },
+    {
+      "kind": "Var",
+      "name": "app",
+      "printedName": "app",
+      "children": [
+        {
+          "kind": "TypeNominal",
+          "name": "Application",
+          "printedName": "Vapor.Application",
+          "usr": "s:5Vapor11ApplicationC"
+        }
+      ],
+      "declKind": "Var",
+      "usr": "s:3Run3app5Vapor11ApplicationCvp",
+      "mangledName": "$s3Run3app5Vapor11ApplicationCvp",
+      "moduleName": "Run",
+      "declAttributes": [
+        "HasInitialValue",
+        "HasStorage"
+      ],
+      "isLet": true,
+      "hasStorage": true
+    }
+  ],
+  "json_format_version": 6
+}

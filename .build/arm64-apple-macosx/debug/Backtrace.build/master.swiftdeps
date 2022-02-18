@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "ccb944e6591660fb33f1c68c633a06911f3f25a771fb83c369e694ca8d767828"
+build_start_time: [1645219359, 559991836]
+build_end_time: [1645219359, 639127969]
+inputs:
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift": [1645219333, 236690282]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift": [1645219333, 236764907]

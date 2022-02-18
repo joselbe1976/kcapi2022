@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/master.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOAtomic.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/NIOAtomic.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/NIOAtomic.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/NIOAtomic~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/NIOAtomic.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/atomics.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/atomics.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/atomics~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/atomics.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/lock.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/lock.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/lock~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOConcurrencyHelpers.build/lock.swiftdeps"
+  }
+}

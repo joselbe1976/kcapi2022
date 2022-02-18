@@ -1,0 +1,4 @@
+module CNIOHTTPParser {
+    umbrella header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/CNIOHTTPParser/include/CNIOHTTPParser.h"
+    export *
+}

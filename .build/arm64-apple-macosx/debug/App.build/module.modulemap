@@ -1,0 +1,4 @@
+module App {
+    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/App.build/App-Swift.h"
+    requires objc
+}

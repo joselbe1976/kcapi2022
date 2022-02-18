@@ -1,0 +1,52 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "NIOCore",
+      "printedName": "NIOCore",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "NIOEmbedded",
+      "printedName": "NIOEmbedded",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "NIOPosix",
+      "printedName": "NIOPosix",
+      "declKind": "Import",
+      "moduleName": "NIO",
+      "declAttributes": [
+        "Exported"
+      ]
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "NIO"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "NIO"
+    }
+  ],
+  "json_format_version": 6
+}

@@ -1,0 +1,24 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "9db0546b71f03b3bbf67abd41dfbc88a2cc621a540b4aa7d4b001cf0de94935e"
+build_start_time: [1645219374, 787552833]
+build_end_time: [1645219375, 381530046]
+inputs:
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Concurrency/FluentProvider+Concurrency.swift"
+  : [1645219337, 213673591]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Concurrency/Pagination+Concurrency.swift"
+  : [1645219337, 213732957]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Concurrency/Sessions+Concurrency.swift"
+  : [1645219337, 213795185]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1645219337, 213848114]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift": [1645219337, 213910341]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": [1645219337, 213979959]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1645219337, 214041233]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Fluent+Pagination.swift": [1645219337, 214127063]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1645219337, 214205265]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1645219337, 214274406]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1645219337, 214362621]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": [1645219337, 214443683]
+  ? "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift"
+  : [1645219337, 214504003]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": [1645219337, 214566946]
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/fluent/Sources/Fluent/PageLimit.swift": [1645219337, 214630126]

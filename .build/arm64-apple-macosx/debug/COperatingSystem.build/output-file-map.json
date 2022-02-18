@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/COperatingSystem.build/master.swiftdeps"
+  },
+  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": {
+    "dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/COperatingSystem.build/Exports.d",
+    "object": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/COperatingSystem.build/Exports.swift.o",
+    "swiftmodule": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/COperatingSystem.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/COperatingSystem.build/Exports.swiftdeps"
+  }
+}

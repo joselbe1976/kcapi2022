@@ -1,0 +1,49 @@
+2728477b50e24be82f5bc0bd0722c35656e1c5b1	not-for-merge	branch 'main' of https://github.com/vapor/queues-redis-driver
+65000cbbf22a5e8708358b26ddfa8ffc0399bb86	not-for-merge	'refs/pull/1/head' of https://github.com/vapor/queues-redis-driver
+fecefa51afec45ff6c64363676e32e51659bd43e	not-for-merge	'refs/pull/10/head' of https://github.com/vapor/queues-redis-driver
+170c3f6251223a41fc80740378552da4cfc6fe8a	not-for-merge	'refs/pull/13/head' of https://github.com/vapor/queues-redis-driver
+db8ea270538b203051fe6d50dec2b75711a0475d	not-for-merge	'refs/pull/14/head' of https://github.com/vapor/queues-redis-driver
+0d4eae7eb77da2dfe78257dea1e329d2eca0dbae	not-for-merge	'refs/pull/15/head' of https://github.com/vapor/queues-redis-driver
+fb760ffd8989726b33f811cad2df3833cce86e37	not-for-merge	'refs/pull/16/head' of https://github.com/vapor/queues-redis-driver
+bcffa37c60cc0ecda496b652c19fa586cb788aba	not-for-merge	'refs/pull/17/head' of https://github.com/vapor/queues-redis-driver
+05fcaef1f7f77140d94756e1485b7737c81f7017	not-for-merge	'refs/pull/18/head' of https://github.com/vapor/queues-redis-driver
+587ff459a8869c7fec1aaa5a1a3f35b259c64c0a	not-for-merge	'refs/pull/19/head' of https://github.com/vapor/queues-redis-driver
+104ea8911ba62ccd9ae08228148e669dd1ae780c	not-for-merge	'refs/pull/2/head' of https://github.com/vapor/queues-redis-driver
+05997cafa392c81c2b40314674fa8362a48f224c	not-for-merge	'refs/pull/21/head' of https://github.com/vapor/queues-redis-driver
+8baf4ae3f4a4f2a319f7888dd36890958cfda168	not-for-merge	'refs/pull/22/head' of https://github.com/vapor/queues-redis-driver
+904ce9e596c8999b6cbcfcf7292a81a61d68e458	not-for-merge	'refs/pull/24/head' of https://github.com/vapor/queues-redis-driver
+b409fb1be5368bbd9c7c6216f7bf1bd6cfe95b14	not-for-merge	'refs/pull/25/head' of https://github.com/vapor/queues-redis-driver
+1cbfb4900855edd817ad316636d6657757bf5a49	not-for-merge	'refs/pull/26/head' of https://github.com/vapor/queues-redis-driver
+2743d1a46767444c883c5687f269ff21d2bc145b	not-for-merge	'refs/pull/27/head' of https://github.com/vapor/queues-redis-driver
+a1d8b307ed1308a94e26a69781bf0e0754bed8f7	not-for-merge	'refs/pull/3/head' of https://github.com/vapor/queues-redis-driver
+a4c9422673918171a253bf0486b3a59a38346570	not-for-merge	'refs/pull/4/head' of https://github.com/vapor/queues-redis-driver
+d5e77df62bc58034af00fbbb5d254eabad163d96	not-for-merge	'refs/pull/7/head' of https://github.com/vapor/queues-redis-driver
+fb6f1c93636f435691c1b306fef871f086b15b4c	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/queues-redis-driver
+29fe144875cedb39a53054be603a787d55ec0fc5	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/queues-redis-driver
+d5a25ff95d4127e95667537c716b29d001f78452	not-for-merge	tag '0.1.0' of https://github.com/vapor/queues-redis-driver
+bf0af905ed8acc731d559779725447494fedcc4b	not-for-merge	tag '0.1.1' of https://github.com/vapor/queues-redis-driver
+673b8762e2860ac1636d07a17f2d84e8fb6bb0de	not-for-merge	tag '0.1.2' of https://github.com/vapor/queues-redis-driver
+6955d30755676a055b93fb4a0c1ccff34a69db5d	not-for-merge	tag '0.1.3' of https://github.com/vapor/queues-redis-driver
+607d74ad082aedbe29bdc594ff97460371b5cbe6	not-for-merge	tag '0.2.0' of https://github.com/vapor/queues-redis-driver
+8a230e54a65e153e636dc4a96f254da28d40319f	not-for-merge	tag '0.2.1' of https://github.com/vapor/queues-redis-driver
+a319c7a40eb6fc1dd826c9964512f9b3181ff5a5	not-for-merge	tag '0.2.2' of https://github.com/vapor/queues-redis-driver
+e943ae83eff6d1221a36f123c8aa248f8b944800	not-for-merge	tag '0.2.3' of https://github.com/vapor/queues-redis-driver
+a3da344bd627e6757301682c258b2ded3b98f02f	not-for-merge	tag '0.2.4' of https://github.com/vapor/queues-redis-driver
+0985e999d034791de72f785bb8e13dc9ab335d9b	not-for-merge	tag '0.2.5' of https://github.com/vapor/queues-redis-driver
+ef25c66883a1ca99ab008281a32b204966175b6a	not-for-merge	tag '0.2.6' of https://github.com/vapor/queues-redis-driver
+cf36f858753fdbfdbd3066369f631834dff82a39	not-for-merge	tag '0.2.7' of https://github.com/vapor/queues-redis-driver
+04306b81ef25b3bc42d9634c7c657b3eb498ed0e	not-for-merge	tag '1.0.0' of https://github.com/vapor/queues-redis-driver
+4d69716015f992380fff00b3f2b339610d39d264	not-for-merge	tag '1.0.0-alpha.1.0' of https://github.com/vapor/queues-redis-driver
+ae3f8648e7c6def3f84b48d0bddeef7d01a84c2e	not-for-merge	tag '1.0.0-alpha.1.1' of https://github.com/vapor/queues-redis-driver
+f43f35458fc0355f201c9e0e0354316b6d0e284a	not-for-merge	tag '1.0.0-alpha.1.2' of https://github.com/vapor/queues-redis-driver
+486a96da68e46788a2115e890017e69da3ced0f3	not-for-merge	tag '1.0.0-alpha.2' of https://github.com/vapor/queues-redis-driver
+972576e76e53af3bacbab8f90adf47574c43c34b	not-for-merge	tag '1.0.0-beta.2' of https://github.com/vapor/queues-redis-driver
+d6e5058b1fa78140d41ab91428452624f3b4cd8a	not-for-merge	tag '1.0.0-beta.2.1.0' of https://github.com/vapor/queues-redis-driver
+ce2123d738f5b1113a38d5cab8819f5f52f4c537	not-for-merge	tag '1.0.0-rc.1' of https://github.com/vapor/queues-redis-driver
+424e1d4b470ada2324701effa09de4822fc2e1a7	not-for-merge	tag '1.0.0-rc.2' of https://github.com/vapor/queues-redis-driver
+2212b5daf46a35de6da1ea91af2e0cc927247ccb	not-for-merge	tag '1.0.0-rc.3' of https://github.com/vapor/queues-redis-driver
+907aa8dd274fa842a1a47e1fab06ad11ff3ed41d	not-for-merge	tag '1.0.0-rc.4' of https://github.com/vapor/queues-redis-driver
+04306b81ef25b3bc42d9634c7c657b3eb498ed0e	not-for-merge	tag '1.0.0-rc.4.1' of https://github.com/vapor/queues-redis-driver
+cebfd99670a82453518493f9a0242967f7db86de	not-for-merge	tag '1.0.1' of https://github.com/vapor/queues-redis-driver
+53077538b862ea93cc0054c6b308497b67219b7c	not-for-merge	tag '1.0.2' of https://github.com/vapor/queues-redis-driver
+2728477b50e24be82f5bc0bd0722c35656e1c5b1	not-for-merge	tag '1.0.3' of https://github.com/vapor/queues-redis-driver
