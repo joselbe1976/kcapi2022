@@ -9,22 +9,8 @@ public func configure(_ app: Application) throws {
     // app.middleware.use(FileMiddleware(publicDirectory: app.directory.publicDirectory))
 
    // app.databases.use(.sqlite(.file("db.sqlite")), as: .sqlite)
-    //POStGRE
-    /*
-    if let environment = Environment.get("DATABASE_URL"), let databaseURL = URL(string: environment) {
-        // Conexion en Heroku
-        try app.databases.use(.postgres(url: databaseURL), as: .psql)
-    } else {
-        // Conexion a mi servidor.
-        
-        app.databases.use(.postgres(hostname: "ec2-54-220-53-223.eu-west-1.compute.amazonaws.com", port: 5432, username: "zezyjrxzpbqqsu", password: "b2369a5fc7706264ac7ab44093576b883362506fabb1d9984bfe24b443afe7ec", database: "d5a7ughenju6tn", tlsConfiguration: <#T##TLSConfiguration?#>), as: .psql)
-        
-       //fatalError("DATABASE_URL is not configurated in Heroku")
-       
-    }
  
- */
-    
+    //PostGree
     
     if let databaseURL = Environment.get("DATABASE_URL"), var postgresConfig = PostgresConfiguration(url: databaseURL) {
         postgresConfig.tlsConfiguration = .forClient(certificateVerification: .none)
