@@ -1,4 +1,0 @@
-module NIOHTTP2 {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/NIOHTTP2.build/NIOHTTP2-Swift.h"
-    requires objc
-}

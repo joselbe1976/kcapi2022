@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
-options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1645219345, 164759159]
-build_end_time: [1645219347, 34100055]
-inputs:
-  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/vapor/Sources/COperatingSystem/Exports.swift": [1645219337, 639412879]

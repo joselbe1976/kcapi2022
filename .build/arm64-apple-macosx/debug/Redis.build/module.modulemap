@@ -1,4 +1,0 @@
-module Redis {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Redis.build/Redis-Swift.h"
-    requires objc
-}

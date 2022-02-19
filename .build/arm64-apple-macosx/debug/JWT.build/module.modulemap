@@ -1,4 +1,0 @@
-module JWT {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/JWT.build/JWT-Swift.h"
-    requires objc
-}

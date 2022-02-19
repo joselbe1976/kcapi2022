@@ -1,4 +1,0 @@
-module QueuesRedisDriver {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/QueuesRedisDriver.build/QueuesRedisDriver-Swift.h"
-    requires objc
-}

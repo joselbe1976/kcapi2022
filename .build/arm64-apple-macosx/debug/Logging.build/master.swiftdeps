@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
-options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
-build_start_time: [1645219344, 644505977]
-build_end_time: [1645219347, 308184146]
-inputs:
-  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1645219336, 196718215]
-  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1645219336, 196816444]
-  "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1645219336, 197129726]

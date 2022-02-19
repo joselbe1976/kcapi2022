@@ -1,4 +1,0 @@
-module Fluent {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Fluent.build/Fluent-Swift.h"
-    requires objc
-}

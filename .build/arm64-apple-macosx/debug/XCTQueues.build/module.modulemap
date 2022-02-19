@@ -1,4 +1,0 @@
-module XCTQueues {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/XCTQueues.build/XCTQueues-Swift.h"
-    requires objc
-}

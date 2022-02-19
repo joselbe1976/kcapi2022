@@ -1,4 +1,0 @@
-module CNIOExtrasZlib {
-    umbrella header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
-    export *
-}

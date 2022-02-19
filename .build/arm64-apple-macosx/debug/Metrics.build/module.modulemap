@@ -1,4 +1,0 @@
-module Metrics {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/Metrics.build/Metrics-Swift.h"
-    requires objc
-}

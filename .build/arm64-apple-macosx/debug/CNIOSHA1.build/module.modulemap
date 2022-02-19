@@ -1,4 +1,0 @@
-module CNIOSHA1 {
-    umbrella header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/swift-nio/Sources/CNIOSHA1/include/CNIOSHA1.h"
-    export *
-}

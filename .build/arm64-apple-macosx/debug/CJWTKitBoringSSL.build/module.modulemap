@@ -1,4 +1,0 @@
-module CJWTKitBoringSSL {
-    umbrella header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/checkouts/jwt-kit/Sources/CJWTKitBoringSSL/include/CJWTKitBoringSSL.h"
-    export *
-}

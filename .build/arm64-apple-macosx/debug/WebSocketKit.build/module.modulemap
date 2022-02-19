@@ -1,4 +1,0 @@
-module WebSocketKit {
-    header "/Users/joselbe/Formacion/KeepCoding/HEROKU/kcapi2022/.build/arm64-apple-macosx/debug/WebSocketKit.build/WebSocketKit-Swift.h"
-    requires objc
-}
