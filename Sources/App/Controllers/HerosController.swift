@@ -20,7 +20,7 @@ struct HerosController : RouteCollection {
         tokenAppjwt.delete("location", use: removeLocation)//remove a Location
         tokenAppjwt.post("tranformations", use: getTransformationsHero) //Lista Transformaciones de un hero
         tokenAppjwt.post("tranformation", use: addTransformationHero) //Add Transformation
-        
+        tokenAppjwt.delete("tranformation", use: removeTransformation) //Remove Transformation
         
     }
     
@@ -143,6 +143,23 @@ struct HerosController : RouteCollection {
             .get()
 
     }
+    
+    // Remove transofrmation woith ID
+    func removeTransformation(_ req:Request) async throws -> HTTPStatus {
+        let _ = try req.jwt.verify(as: PayloadApp.self)
+        let requestData  = try req.content.decode(HerosTransformationListRequest.self)
+        let idTransformation = requestData.id
+      
+        return try await HeroTransformations
+            .find(idTransformation, on: req.db)
+            .unwrap(or: Abort(.notFound))
+            .flatMap{ trans in
+                return trans.delete(on: req.db).transform(to: .ok)
+            }
+            .get()
+    }
+    
+    
     
     
     func allHeros(_ req:Request) async throws -> [HerosResponse] {

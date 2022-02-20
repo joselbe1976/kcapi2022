@@ -40,3 +40,4 @@ struct HerosTransformationRequest : Content {
     let description:String
     let photo:String
 }
+
